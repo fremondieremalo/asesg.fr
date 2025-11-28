@@ -47,6 +47,6 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => {
             console.error('❌ ERREUR FATALE :', error);
-            tbody.innerHTML = `<tr><td colspan="5" style="color: red; text-align: center;">Erreur : ${error.message}</td></tr>`;
+            tbody.innerHTML = `<tr><td colspan="4" style="color: red; text-align: center;">Erreur : ${error.message}</td></tr>`;
         });
 });
