@@ -1,213 +1,533 @@
-/* --- RESET & VARIABLES --- */
+/* --- VARIABLES & RESET --- */
 :root {
-    --primary-orange: #FF6600; /* Orange Vif */
-    --dark-bg: #111111;        /* Noir Profond */
-    --light-bg: #1e1e1e;       /* Gris Anthracite pour les cartes */
-    --text-white: #ffffff;
-    --text-gray: #b3b3b3;
-    --font-heading: 'Oswald', sans-serif;
-    --font-body: 'Roboto', sans-serif;
+    --orange: #FF6600;
+    --dark: #0a0a0a;
+    --dark-grey: #161616;
+    --light: #f4f4f4;
+    --font-title: 'Oswald', sans-serif;
+    --font-text: 'Montserrat', sans-serif;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+* { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
 
 body {
-    font-family: var(--font-body);
-    background-color: var(--dark-bg);
-    color: var(--text-white);
-    line-height: 1.6;
+    background-color: var(--dark);
+    color: var(--light);
+    font-family: var(--font-text);
+    overflow-x: hidden;
 }
 
 a { text-decoration: none; color: inherit; transition: 0.3s; }
-ul { list-style: none; }
 
-/* --- NAVIGATION --- */
+/* --- NAVBAR --- */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 5%;
-    background-color: rgba(0, 0, 0, 0.95);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    border-bottom: 3px solid var(--primary-orange);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    transition: 0.4s;
 }
 
-.logo {
-    font-family: var(--font-heading);
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: var(--primary-orange);
-    letter-spacing: 2px;
+.navbar.scrolled {
+    background: rgba(10, 10, 10, 0.95);
+    padding: 15px 5%;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
 }
 
-.nav-links { display: flex; gap: 30px; align-items: center; }
+.logo { font-family: var(--font-title); font-size: 1.8rem; font-weight: 700; letter-spacing: 2px; }
+.dot, .text-orange { color: var(--orange); }
 
-.nav-links li a {
-    font-weight: 500;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-}
+.nav-links { display: flex; gap: 30px; list-style: none; align-items: center; }
+.nav-links a { font-weight: 600; font-size: 0.9rem; text-transform: uppercase; }
+.nav-links a:hover, .nav-links a.active { color: var(--orange); }
 
-.nav-links li a:hover { color: var(--primary-orange); }
-
-/* Bouton Contact style CTA */
-.cta-btn {
-    background-color: var(--primary-orange);
-    padding: 10px 20px;
-    border-radius: 4px;
+.btn-contact {
+    background: var(--orange);
+    padding: 10px 25px;
+    border-radius: 50px;
     color: white !important;
-    font-weight: bold;
 }
-.cta-btn:hover { background-color: #cc5200; }
-
-/* --- DROPDOWN MENU (Pour les Seniors) --- */
-.dropdown { position: relative; }
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: var(--light-bg);
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
-    z-index: 1;
-    top: 100%; /* Juste en dessous du lien */
-    border-top: 2px solid var(--primary-orange);
-}
-
-.dropdown-content a {
-    color: var(--text-white);
-    padding: 12px 16px;
-    display: block;
-    font-size: 0.85rem;
-    text-align: left;
-}
-
-.dropdown-content a:hover { background-color: #333; color: var(--primary-orange); }
-.dropdown:hover .dropdown-content { display: block; }
+.btn-contact:hover { transform: scale(1.05); box-shadow: 0 0 15px rgba(255, 102, 0, 0.4); }
 
 /* --- HERO SECTION --- */
-.hero-section {
-    height: 60vh;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1517466787929-bc90951d6db0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'); /* Image d'exemple */
-    background-position: center;
-    background-size: cover;
+.hero {
+    height: 100vh;
+    position: relative;
+    overflow: hidden; /* Important pour ne pas que le flou déborde */
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
-.hero-content h1 {
-    font-family: var(--font-heading);
-    font-size: 4rem;
-    text-transform: uppercase;
-    margin-bottom: 10px;
+/* L'IMAGE DE FOND (C'est ici qu'on met l'image et le flou) */
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    /* REMPLACE L'URL CI-DESSOUS PAR TON IMAGE */
+    background: url('../img/equipe1.jpeg') center/cover no-repeat;
+    
+    /* L'EFFET DE FLOU */
+    filter: blur(4px); /* Change 4px en 2px pour moins de flou, ou 8px pour plus */
+    
+    /* ASTUCE PRO : On zoome un peu l'image pour cacher les bords blancs créés par le flou */
+    transform: scale(1.1); 
+    z-index: -2; /* Tout au fond */
 }
 
-.tag {
-    background: var(--primary-orange);
-    color: white;
-    padding: 5px 10px;
-    font-size: 0.8rem;
+/* L'OVERLAY (Le voile noir pour que le texte reste lisible) */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4), var(--dark));
+    z-index: -1; /* Au-dessus de l'image, mais sous le texte */
+}
+
+/* LE CONTENU (Texte + Boutons) */
+.hero-content {
+    position: relative;
+    z-index: 2; /* Tout devant */
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+/* Le reste ne change pas... */
+.hero h1 {
+    font-family: var(--font-title);
+    font-size: 5rem;
+    line-height: 1;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.hero p { font-size: 1.2rem; margin-bottom: 30px; opacity: 0.9; }
+
+.btn {
+    padding: 15px 40px;
+    border-radius: 5px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 15px;
+    font-family: var(--font-title);
     display: inline-block;
+    margin: 10px;
 }
 
-.btn-orange, .btn-transparent {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 12px 30px;
+.btn-primary { background: var(--orange); color: white; border: 2px solid var(--orange); }
+.btn-primary:hover { background: transparent; color: var(--orange); }
+
+.btn-outline { border: 2px solid white; color: white; }
+.btn-outline:hover { background: white; color: var(--dark); }
+
+/* --- SCORE BAR --- */
+.score-bar {
+    background: var(--dark-grey);
+    border-bottom: 2px solid var(--orange);
+    padding: 15px;
+    text-align: center;
+    font-family: var(--font-title);
     font-weight: bold;
-    text-transform: uppercase;
-    border: 2px solid var(--primary-orange);
+    margin-top: -50px; /* Chevauchement */
+    position: relative;
+    z-index: 10;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px 10px 0 0;
 }
+.score-box { background: var(--orange); padding: 5px 10px; color: white; margin: 0 10px; border-radius: 4px; }
 
-.btn-orange { background: var(--primary-orange); margin-right: 10px; }
-.btn-transparent { background: transparent; border: 2px solid white; }
-.btn-transparent:hover { background: white; color: black; }
+/* --- CARDS SECTION --- */
+.section { padding: 80px 5%; }
+.section-title { font-family: var(--font-title); font-size: 2.5rem; margin-bottom: 50px; text-transform: uppercase; }
 
-/* --- MATCH CENTER --- */
-.match-center {
-    background: var(--primary-orange);
-    display: flex;
-    justify-content: space-between;
-    padding: 15px 10%;
-    align-items: center;
-    font-family: var(--font-heading);
-    font-weight: bold;
-    font-size: 1.2rem;
-}
-.match-status { font-size: 0.9rem; opacity: 0.9; }
-
-/* --- SECTION CONTENU --- */
-.team-container { padding: 50px 10%; }
-
-.section-title {
-    border-left: 5px solid var(--primary-orange);
-    padding-left: 15px;
-    margin-bottom: 30px;
-    margin-top: 50px;
-}
-.section-title h2 { font-family: var(--font-heading); text-transform: uppercase; font-size: 2rem; }
-
-/* GRILLE STAFF */
-.staff-grid {
+.grid-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
 }
 
 .card {
-    background: var(--light-bg);
-    padding: 20px;
+    background: var(--dark-grey);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.card:hover { transform: translateY(-10px); box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+
+.card-img { height: 200px; background-size: cover; background-position: center; position: relative; }
+.category {
+    position: absolute; bottom: 10px; left: 10px;
+    background: var(--orange); color: white;
+    padding: 5px 15px; font-size: 0.7rem; font-weight: bold; text-transform: uppercase;
+}
+
+.card-content { padding: 25px; }
+.card-content h3 { font-family: var(--font-title); font-size: 1.5rem; margin-bottom: 10px; }
+.read-more { color: var(--orange); font-weight: bold; font-size: 0.9rem; }
+
+/* --- STATS --- */
+.stats-section {
+    background: var(--orange);
+    padding: 60px 5%;
+    display: flex;
+    justify-content: space-around;
     text-align: center;
-    border-bottom: 3px solid transparent;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.stat-item h3 { font-size: 4rem; font-family: var(--font-title); color: white; margin-bottom: 0; }
+.stat-item p { font-weight: bold; text-transform: uppercase; color: rgba(255,255,255,0.8); }
+
+/* --- ANIMATIONS & RESPONSIVE --- */
+.reveal { opacity: 0; transform: translateY(30px); transition: 1s all ease; }
+.reveal.active { opacity: 1; transform: translateY(0); }
+
+.fade-in { opacity: 0; animation: fadeIn 1s forwards; }
+.delay-1 { animation-delay: 0.3s; transition-delay: 0.2s; }
+.delay-2 { animation-delay: 0.6s; transition-delay: 0.4s; }
+
+@keyframes fadeIn {
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+    .hero h1 { font-size: 3rem; }
+    .nav-links { display: none; }
+}
+
+/* --- MENU DÉROULANT (DROPDOWN) --- */
+
+/* Le conteneur du bouton Seniors */
+.dropdown {
+    position: relative; /* Important pour que le menu reste collé au bouton */
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* Le menu caché par défaut */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--dark-grey);
+    
+    /* --- C'EST ICI QUE ÇA SE JOUE --- */
+    min-width: 220px;     /* 1. On élargit la base (passe de 180px à 250px) */
+    white-space: nowrap;  /* 2. L'astuce magique : Interdit le retour à la ligne ! */
+    /* -------------------------------- */
+    
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.5);
+    z-index: 1000;
+    border-top: 3px solid var(--orange);
+    border-radius: 0 0 5px 5px;
+}
+
+/* Les liens à l'intérieur du menu */
+.dropdown-content a {
+    color: var(--light);
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 0.85rem;
+    border-bottom: 1px solid rgba(255,255,255,0.05); /* Ligne de séparation subtile */
+    text-align: left;
+}
+
+/* Effet au survol des liens du menu */
+.dropdown-content a:hover {
+    background-color: #222;
+    color: var(--orange);
+    padding-left: 25px; /* Petit effet de mouvement vers la droite */
+}
+
+/* L'action magique : Afficher le menu au survol */
+.dropdown:hover .dropdown-content {
+    display: block;
+    animation: fadeIn 0.3s ease; /* Petite animation d'apparition */
+}
+
+/* --- ICÔNES MATCHS (Maison/Avion) --- */
+
+.icon-match {
+    color: var(--orange); /* Met les icônes en orange */
+    font-size: 0.9em;     /* Légèrement plus petit que le texte */
+    margin-right: 8px;
+}
+
+/* --- LISTE DES MATCHS --- */
+/* --- LISTE LARGE DES MATCHS --- */
+/* --- LISTE DES MATCHS (Centrée et Compacte) --- */
+
+.match-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+    
+    /* 1. ON RÉTRÉCIT LA LARGEUR ICI */
+    max-width: 850px;  /* Largeur max (modifiable) */
+    margin-left: auto; /* Centre le bloc sur la page */
+    margin-right: auto;/* Centre le bloc sur la page */
+    width: 100%;
+}
+
+.match-row {
+    background: var(--dark-grey);
+    border-left: 5px solid var(--orange);
+    padding: 15px 30px;
+    border-radius: 5px;
+    
+    display: flex;
+    align-items: center; /* Centre verticalement */
+    /* On enlève 'justify-content: space-between' pour gérer nous-mêmes */
+    
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     transition: 0.3s;
 }
-.card:hover { border-bottom: 3px solid var(--primary-orange); transform: translateY(-5px); }
 
-.card-img {
-    width: 100px;
-    height: 100px;
-    background: #444;
-    border-radius: 50%;
-    margin: 0 auto 15px;
+.match-row:hover {
+    background: #222;
+    transform: translateX(5px);
 }
 
-/* TABLEAU CLASSEMENT */
-.standings-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-    background: var(--light-bg);
+/* PARTIE GAUCHE (Ligue) - On fixe une taille pour ne pas gêner le centre */
+.match-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 200px; /* Largeur fixe pour la partie gauche */
+    flex-shrink: 0; /* Empêche de rétrécir */
 }
-.standings-table th, .standings-table td {
-    padding: 15px;
-    text-align: left;
-    border-bottom: 1px solid #333;
-}
-.standings-table th { background-color: #000; color: var(--primary-orange); text-transform: uppercase; }
-.highlight { background-color: rgba(255, 102, 0, 0.1); border-left: 3px solid var(--primary-orange); }
 
-/* --- FOOTER --- */
-footer {
-    background: black;
-    padding: 40px 10% 20px;
+.league {
+    font-weight: bold;
+    color: var(--orange);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+/* PARTIE DROITE (Équipes + Heure) - C'EST ELLE QUI SE CENTRE */
+.match-right {
+    display: flex;
+    align-items: center;
+    
+    /* 2. ON CENTRE LE CONTENU */
+    justify-content: center; /* Centre les équipes au milieu */
+    flex-grow: 1; /* Prend toute la place restante */
+    
+    gap: 30px; /* Espace autour de l'heure */
+    font-family: var(--font-title);
+    font-size: 1.2rem;
+}
+
+.team {
+    font-weight: bold;
+    min-width: 100px; /* Pour équilibrer les noms d'équipes */
+}
+
+/* Si tu veux aligner les noms (ex: ASESG à droite, Adversaire à gauche) */
+.match-right .team:first-child { text-align: right; }
+.match-right .team:last-child { text-align: left; }
+
+.time-badge {
+    background: #333;
+    border: 1px solid var(--orange);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    min-width: 80px;
     text-align: center;
-    border-top: 1px solid #333;
 }
-.footer-bottom { margin-top: 20px; font-size: 0.8rem; color: #666; }
 
 /* --- RESPONSIVE MOBILE --- */
 @media (max-width: 768px) {
-    .nav-links { display: none; } /* Simplification pour l'exemple */
-    .hero-content h1 { font-size: 2.5rem; }
-    .match-center { flex-direction: column; gap: 10px; text-align: center; }
+    .match-row {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    .match-left {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .match-right {
+        width: 100%;
+        flex-direction: column; /* Les équipes passent l'une sous l'autre sur mobile */
+        gap: 10px;
+    }
+    .team { text-align: center !important; }
+}
+
+
+/* --- PAGES ÉQUIPES (R3, D2...) --- */
+
+/* Petit Header pour les pages internes (moins haut que l'accueil) */
+.page-header {
+    height: 50vh; /* Moitié de l'écran */
+    background: linear-gradient(rgba(0,0,0,0.7), var(--dark)), url('../img/equipe1.jpeg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tag-league {
+    background: var(--orange);
+    color: white;
+    padding: 5px 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* --- PHOTO D'ÉQUIPE --- */
+.photo-frame {
+    border: 10px solid white; /* Cadre blanc type photo */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transform: rotate(-1deg); /* Petit effet stylé incliné */
+    transition: 0.3s;
+}
+.photo-frame:hover { transform: rotate(0deg) scale(1.02); }
+
+.photo-frame img {
+    width: 100%;
+    display: block;
+}
+
+.photo-caption {
+    background: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--font-text);
+}
+
+/* --- DASHBOARD (Match & Classement) --- */
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* 2 colonnes auto */
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.dashboard-card h3 {
+    font-family: var(--font-title);
+    color: var(--orange);
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+}
+
+/* Bloc Prochain Match */
+.next-match-box {
+    background: var(--dark-grey);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #333;
+}
+
+.match-teams {
+    font-family: var(--font-title);
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.vs { color: var(--orange); font-size: 1rem; margin: 0 10px; vertical-align: middle; }
+
+.match-infos {
+    color: #aaa;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Tableau Classement Style */
+.ranking-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--dark-grey);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.ranking-table th {
+    background: #222;
+    color: var(--orange);
+    padding: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.ranking-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #333;
+}
+
+.ranking-table tr:last-child td { border-bottom: none; }
+
+/* Mettre en valeur la 1ère ligne */
+.top-rank { background: rgba(255, 102, 0, 0.1); border-left: 3px solid var(--orange); }
+
+.table-footer {
+    text-align: right;
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+.table-footer a { color: #888; text-decoration: underline; }
+.table-footer a:hover { color: var(--orange); }
+
+
+
+
+/* --- STYLE SPÉCIFIQUE CLASSEMENT --- */
+
+/* Ligne de ton équipe (Mise en avant) */
+.ranking-table tr.my-team {
+    background-color: rgba(255, 102, 0, 0.15); /* Fond orange très léger */
+    border-left: 4px solid #FF6600; /* Barre orange à gauche */
+}
+
+.ranking-table tr.my-team td {
+    font-weight: bold;
+    color: white;
+}
+
+/* Alignement des noms d'équipes à gauche pour faire propre */
+.ranking-table td.team-name {
+    text-align: left;
+    padding-left: 15px;
+}
+
+/* Responsive : Si l'écran est petit, on cache la colonne Différence */
+@media (max-width: 600px) {
+    .ranking-table th:nth-child(5),
+    .ranking-table td:nth-child(5) {
+        display: none;
+    }
 }

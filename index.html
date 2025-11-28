@@ -3,27 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ASESG - Club de Football</title>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>ASESG | Site Officiel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 
     <nav class="navbar">
-        <div class="logo">ASESG</div>
+        <div class="logo">ASESG<span class="dot">.</span></div>
         <ul class="nav-links">
-            <li><a href="index.html">Accueil</a></li>
+            <li><a href="#" class="active">Accueil</a></li>
             <li><a href="actualites.html">Actualités</a></li>
-            
             <li class="dropdown">
-                <a href="#" class="dropbtn">Équipes Seniors ▾</a>
+                <a href="#" class="dropbtn">Seniors ▾</a>
                 <div class="dropdown-content">
-                    <a href="senior-r3.html">Équipe A (R3)</a> <a href="senior-d2.html">Équipe B (D2)</a> <a href="senior-d3.html">Équipe C (D3)</a> <a href="senior-d4.html">Équipe D (D4)</a> </div>
+                    <a href="./assets/html/senior_r3.html">Régionale 3</a>
+                    <a href="./assets/html/senior_d2.html">Départementale 2</a>
+                    <a href="./assets/html/senior_d3.html">Départementale 3</a>
+                    <a href="./assets/html/senior_d4.html">Départementale 4</a>
+                </div>
             </li>
-
-            <li><a href="jeunes.html">École de Foot</a></li>
-            <li><a href="histoire.html">Histoire</a></li>
-            <li><a href="contact.html" class="cta-btn">Nous contacter</a></li>
+            <li><a href="jeunes.html">Jeunes</a></li>
+            <li><a href="" class="btn-boutique">Boutique</a></li>
+            <li><a href="contact.html" class="btn-contact">Nous contacter</a></li>
         </ul>
         <div class="burger">
             <div class="line1"></div>
@@ -32,92 +35,132 @@
         </div>
     </nav>
 
-    <header class="hero-section">
+    <header class="hero">
+        <div class="overlay"></div>
         <div class="hero-content">
-            <span class="tag">Championnat R3</span>
-            <h1>Seniors A</h1>
-            <p>L'équipe fanion de l'ASESG. Ambition, Rigueur, Passion.</p>
-            <a href="#classement" class="btn-orange">Voir le classement</a>
-            <a href="#calendrier" class="btn-transparent">Calendrier</a>
+            <h1 class="fade-in">PLUS QU'UN <span class="text-orange">CLUB</span>.</h1>
+            <p class="fade-in delay-1">L'ambition, la passion et le respect au cœur du jeu.</p>
+            <div class="cta-group fade-in delay-2">
+                <a href="#matchs" class="btn btn-primary">Prochains Matchs Séniors</a>
+                <a href="#actu" class="btn btn-outline">À la une</a>
+            </div>
         </div>
     </header>
 
-    <div class="match-center">
-        <div class="match-info">
-            <span class="team">ASESG (R3)</span>
-            <span class="score">2 - 1</span>
-            <span class="team">FC RIVIERA</span>
-        </div>
-        <div class="match-status">Terminé - Dimanche 15h00</div>
-    </div>
+    <section id="matchs" class="section">
+        <h2 class="section-title reveal">Matchs à venir <span class="dot">.</span></h2>
+        <div class="match-list">
 
-    <section class="team-container">
-        
-        <div class="section-title">
-            <h2>Le Staff Technique</h2>
-        </div>
-        <div class="staff-grid">
-            <div class="card">
-                <div class="card-img" style="background-color: #333;"></div> <h3>Coach Principal</h3>
-                <p>Nom du Coach</p>
+            <div class="match-row reveal">
+                <div class="match-left">
+                    <i class="fa-solid fa-house icon-match home"></i>
+                    <span class="league">Régionale 3</span>
+                </div>
+                <div class="match-right">
+                    <span class="team">ASESG</span>
+                    <span class="time-badge">15h00</span>
+                    <span class="team">FC RIVIERA</span>
+                </div>
             </div>
-            <div class="card">
-                <div class="card-img" style="background-color: #333;"></div> <h3>Adjoint</h3>
-                <p>Nom de l'adjoint</p>
-            </div>
-        </div>
 
-        <div class="section-title" id="classement">
-            <h2>Classement R3 - Poule B</h2>
+            <div class="match-row reveal delay-1">
+                <div class="match-left">
+                    <i class="fa-solid fa-plane icon-match away"></i>
+                    <span class="league">Départementale 2</span>
+                </div>
+                <div class="match-right">
+                    <span class="team">NIORT ST L.</span>
+                    <span class="time-badge">13h00</span>
+                    <span class="team">ASESG</span>
+                </div>
+            </div>
+
+            <div class="match-row reveal">
+                <div class="match-left">
+                    <i class="fa-solid fa-house icon-match home"></i>
+                    <span class="league">Départementale 3</span>
+                </div>
+                <div class="match-right">
+                    <span class="team">ASESG</span>
+                    <span class="time-badge">15h00</span>
+                    <span class="team">BESSINES</span>
+                </div>
+            </div>
+
+            <div class="match-row reveal delay-1">
+                <div class="match-left">
+                    <i class="fa-solid fa-plane icon-match away"></i>
+                    <span class="league">Départementale 4</span>
+                </div>
+                <div class="match-right">
+                    <span class="team">CHAURAY</span>
+                    <span class="time-badge">13h00</span>
+                    <span class="team">ASESG</span>
+                </div>
+            </div>
+
         </div>
-        <div class="widget-placeholder">
-            <p>Ici, tu intègreras le widget Score'n'co ou District (iframe)</p>
-            <table class="standings-table">
-                <thead>
-                    <tr>
-                        <th>Pos</th>
-                        <th>Équipe</th>
-                        <th>Pts</th>
-                        <th>J</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="highlight">
-                        <td>1</td>
-                        <td>ASESG</td>
-                        <td>42</td>
-                        <td>18</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>US Changé</td>
-                        <td>39</td>
-                        <td>18</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Angers NDC</td>
-                        <td>35</td>
-                        <td>18</td>
-                    </tr>
-                </tbody>
-            </table>
+    </section>
+
+    <section id="actu" class="section">
+        <h2 class="section-title reveal">À la Une <span class="dot">.</span></h2>
+        <div class="container">
+            <div class="grid-cards">
+                <article class="card reveal">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1579952363873-27f3bade9f55?q=80&w=1000&auto=format&fit=crop');">
+                        <span class="category">Seniors A</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Victoire décisive ce week-end</h3>
+                        <p>L'équipe fanion s'impose dans les arrêts de jeu grâce à un but de...</p>
+                        <a href="#" class="read-more">Lire la suite →</a>
+                    </div>
+                </article>
+
+                <article class="card reveal delay-1">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?q=80&w=1000&auto=format&fit=crop');">
+                        <span class="category">École de Foot</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Inscriptions saison 2024/2025</h3>
+                        <p>Les portes ouvertes pour les U7 à U13 commencent ce mercredi.</p>
+                        <a href="#" class="read-more">Lire la suite →</a>
+                    </div>
+                </article>
+
+                <article class="card reveal delay-2">
+                    <div class="card-img" style="background-image: url('https://images.unsplash.com/photo-1551958219-acbc608c6377?q=80&w=1000&auto=format&fit=crop');">
+                        <span class="category">Club</span>
+                    </div>
+                    <div class="card-content">
+                        <h3>Soirée du club : Réservez !</h3>
+                        <p>Ne manquez pas la traditionnelle soirée du club le 15 avril.</p>
+                        <a href="#" class="read-more">Lire la suite →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <div class="stat-item reveal">
+            <h3 class="counter" data-target="450">0</h3>
+            <p>Licenciés</p>
+        </div>
+        <div class="stat-item reveal delay-1">
+            <h3 class="counter" data-target="22">0</h3>
+            <p>Équipes</p>
+        </div>
+        <div class="stat-item reveal delay-2">
+            <h3 class="counter" data-target="1974">0</h3>
+            <p>Date de Création</p>
         </div>
     </section>
 
     <footer>
-        <div class="footer-content">
-            <h3>ASESG Football</h3>
-            <p>Stade Municipal - Rue du Stade</p>
-            <div class="socials">
-                <a href="#">Facebook</a>
-                <a href="#">Instagram</a>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            &copy; 2024 ASESG. Tous droits réservés.
-        </div>
+        <p>ASESG Football © 2025. Tous droits réservés.</p>
     </footer>
 
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
