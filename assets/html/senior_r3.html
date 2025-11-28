@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seniors A (R3) | ASESG</title>
+    <title>Seniors R3 | ASESG</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
 
     <nav class="navbar">
-        <div class="logo">ASESG<span class="dot">.</span></div>
+        <div class="logo">
+            <a href="../../index.html">
+                <img src="../img/logo.jpg" alt="Logo ASESG">
+            </a>
+        </div>
         <ul class="nav-links">
             <li><a href="../../index.html">Accueil</a></li>
             <li><a href="actualites.html">Actualités</a></li>
@@ -44,7 +48,7 @@
         <div class="container">
             <h2 class="section-title reveal">L'Effectif 2024-2025 <span class="dot">.</span></h2>
             <div class="photo-frame reveal delay-1">
-                <img src="../img/equipe1.jpeg" alt="Equipe Seniors A ASESG">
+                <img src="../img/equipe1.jpeg" alt="Equipe Seniors B ASESG">
             </div>
         </div>
     </section>
@@ -75,40 +79,19 @@
                     <table class="ranking-table">
                         <thead>
                             <tr>
-                                <th>Pos</th>
+                                <th>Placement</th>
                                 <th>Équipe</th>
-                                <th>Pts</th>
-                                <th>J</th>
-                            </tr>
+                                <th>Points</th>
+                                <th>Matchs joués</th>
+                                </tr>
                         </thead>
-                        <tbody>
-                            <tr class="top-rank"> <td>1</td>
-                                <td><strong>ASESG</strong></td>
-                                <td>42</td>
-                                <td>18</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>FC Chauray</td>
-                                <td>39</td>
-                                <td>18</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Niort St Liguaire</td>
-                                <td>35</td>
-                                <td>18</td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>Parthenay</td>
-                                <td>32</td>
-                                <td>18</td>
-                            </tr>
-                            </tbody>
+                        <tbody id="classement-body">
+                            <tr><td colspan="4">Chargement du classement...</td></tr>
+                        </tbody>
                     </table>
+                    
                     <div class="table-footer">
-                        <a href="https://lfna.fff.fr" target="_blank">Voir classement complet FFF →</a>
+                        <a href="https://epreuves.fff.fr/competition/engagement/435784-seniors-regional-3/phase/1/5/classement" target="_blank">Voir classement complet FFF →</a>
                     </div>
                 </div>
 
@@ -120,6 +103,8 @@
         <p>ASESG Football © 2025. Tous droits réservés.</p>
     </footer>
 
-    <script src="../js/script.js"></script>
+    <script src="../js/script.js"></script> 
+    
+    <script src="../js/classement_r3.js"></script>
 </body>
 </html>

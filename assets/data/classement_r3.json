@@ -1,0 +1,74 @@
+[
+    {
+        "pos": 1,
+        "equipe": "COGNAC FOOTBALL UA",
+        "pts": 22,
+        "joues": 8
+    },
+    {
+        "pos": 2,
+        "equipe": "PAYS MELLOIS AS",
+        "pts": 16,
+        "joues": 8
+    },
+    {
+        "pos": 3,
+        "equipe": "ROYAN VAUX AFC",
+        "pts": 15,
+        "joues": 8
+    },
+    {
+        "pos": 4,
+        "equipe": "ECHIRE ST GELAIS AS",
+        "pts": 14,
+        "joues": 8
+    },
+    {
+        "pos": 5,
+        "equipe": "CHATEAU LARCHER ES",
+        "pts": 13,
+        "joues": 8
+    },
+    {
+        "pos": 6,
+        "equipe": "ST PALAIS SPORT FOOT",
+        "pts": 13,
+        "joues": 8
+    },
+    {
+        "pos": 7,
+        "equipe": "ST YRIEIX 16 AS",
+        "pts": 10,
+        "joues": 8
+    },
+    {
+        "pos": 8,
+        "equipe": "GRANDE CHAMPAGNE JS",
+        "pts": 10,
+        "joues": 8
+    },
+    {
+        "pos": 9,
+        "equipe": "ROCHEFORT FC 2",
+        "pts": 9,
+        "joues": 8
+    },
+    {
+        "pos": 10,
+        "equipe": "CELLES-VERRINES ES",
+        "pts": 8,
+        "joues": 8
+    },
+    {
+        "pos": 11,
+        "equipe": "USSON POITOU ISLE J.",
+        "pts": 4,
+        "joues": 8
+    },
+    {
+        "pos": 12,
+        "equipe": "NIEUIL L ESPOIR JS",
+        "pts": 2,
+        "joues": 8
+    }
+]
