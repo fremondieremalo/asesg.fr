@@ -526,8 +526,8 @@ a { text-decoration: none; color: inherit; transition: 0.3s; }
 
 /* Responsive : Si l'écran est petit, on cache la colonne Différence */
 @media (max-width: 600px) {
-    .ranking-table th:nth-child(5),
-    .ranking-table td:nth-child(5) {
+    .ranking-table th:nth-child(4),
+    .ranking-table td:nth-child(4) {
         display: none;
     }
 }

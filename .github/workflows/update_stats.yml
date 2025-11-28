@@ -1,9 +1,9 @@
-name: Mise à jour Classement
+name: Mise à jour Classements (Tous)
 
 on:
   schedule:
-    - cron: '0 8 * * *' # Lance le script tous les jours à 8h00 UTC
-  workflow_dispatch: # Permet de le lancer manuellement si besoin
+    - cron: '0 8 * * *' # Tous les jours à 8h00 UTC (9h ou 10h en France)
+  workflow_dispatch: # Bouton manuel
 
 permissions:
   contents: write
@@ -24,13 +24,22 @@ jobs:
         run: |
           pip install requests beautifulsoup4 pandas lxml html5lib
 
-      - name: Lancer le script de scraping
-        run: python scripts/maj_classement_d2.py
+      # --- C'EST ICI QUE TU LANCES TES 4 SCRIPTS ---
+      - name: Lancer les scripts de scraping
+        run: |
+          python scripts/maj_classement_d2.py
+          python scripts/maj_classement_d3.py
+          python scripts/maj_classement_d4.py
 
+      # --- SAUVEGARDE DE TOUS LES FICHIERS JSON ---
       - name: Sauvegarder et Envoyer les changements
         run: |
           git config --global user.name "Bot Classement"
           git config --global user.email "bot@asesg.fr"
-          git add assets/data/classement_d2.json
-          git commit -m "Mise à jour automatique du classement D2" || echo "Pas de changement"
+          
+          # On ajoute TOUS les json du dossier data
+          git add assets/data/*.json
+          
+          # On valide (le "|| echo" évite que ça plante s'il n'y a rien de nouveau)
+          git commit -m "Mise à jour automatique des classements" || echo "Pas de changement"
           git push
