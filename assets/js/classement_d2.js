@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Le chemin vers le fichier JSON
-    const urlJson = '../assets/data/classement_d2.json';
+    const urlJson = '../data/classement_d2.json';
     console.log(`🔍 Tentative de chargement du fichier : ${urlJson}`); // Mouchard 2
 
     fetch(urlJson)
