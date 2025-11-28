@@ -1,45 +1,52 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const tbody = document.getElementById('classement-body');
+    console.log("🟢 Le script JS a démarré !"); // Mouchard 1
 
-    // 1. On va chercher le fichier JSON
-    // ⚠️ Si ton HTML est dans un sous-dossier, le chemin vers assets doit être adapté
-    // Si ca ne marche pas, essaie '../assets/data/classement_d2.json'
-    fetch('../data/classement_d2.json') 
+    const tbody = document.getElementById('classement-body');
+    if (!tbody) {
+        console.error("🔴 Erreur : Impossible de trouver le tableau dans le HTML (id='classement-body' introuvable)");
+        return;
+    }
+
+    // Le chemin vers le fichier JSON
+    const urlJson = '../assets/data/classement_d2.json';
+    console.log(`🔍 Tentative de chargement du fichier : ${urlJson}`); // Mouchard 2
+
+    fetch(urlJson)
         .then(response => {
+            console.log(`Reçu réponse du serveur : ${response.status}`); // Mouchard 3
             if (!response.ok) {
-                throw new Error("Impossible de trouver le fichier classement_d2.json");
+                throw new Error(`Fichier introuvable (Erreur ${response.status})`);
             }
             return response.json();
         })
         .then(data => {
-            // 2. On vide le message de chargement
-            tbody.innerHTML = '';
+            console.log("✅ Données JSON reçues :", data); // Mouchard 4 : Affiche les données brutes
 
-            // 3. On boucle sur chaque équipe
-            data.forEach(row => {
+            tbody.innerHTML = ''; // On vide le tableau
+
+            data.forEach((row, index) => {
                 const tr = document.createElement('tr');
 
-                // 4. On détecte si c'est notre équipe (ASESG ou ECHIRE)
-                // Adapte 'ECHIRE' selon comment la FFF écrit le nom exact de ton club dans le JSON
-                const nomEquipe = row.equipe.toUpperCase();
+                // Détection de l'équipe (ASESG / ECHIRE)
+                const nomEquipe = row.equipe ? row.equipe.toUpperCase() : "";
                 if (nomEquipe.includes('ECHIRE') || nomEquipe.includes('GELAIS') || nomEquipe.includes('ASESG')) {
-                    tr.classList.add('my-team'); // On ajoute la classe CSS spéciale
+                    tr.classList.add('my-team');
                 }
 
-                // 5. On crée les cellules (HTML)
+                // ON NE MET QUE 4 CELLULES ICI :
                 tr.innerHTML = `
-                    <td>${row.pos}</td>
-                    <td class="team-name">${row.equipe}</td>
-                    <td><strong>${row.pts}</strong></td>
-                    <td>${row.joues}</td>
-                `;
+                    <td>${row.pos || '-'}</td>
+                    <td class="team-name">${row.equipe || 'Inconnu'}</td>
+                    <td><strong>${row.pts || 0}</strong></td>
+                    <td>${row.joues || 0}</td>
+                `; 
+                // J'ai supprimé la ligne <td>${row.dif}</td>
 
-                // 6. On ajoute la ligne au tableau
                 tbody.appendChild(tr);
             });
         })
         .catch(error => {
-            console.error('Erreur:', error);
-            tbody.innerHTML = '<tr><td colspan="4" style="color:red;">Classement indisponible pour le moment.</td></tr>';
+            console.error('❌ ERREUR FATALE :', error);
+            tbody.innerHTML = `<tr><td colspan="5" style="color: red; text-align: center;">Erreur : ${error.message}</td></tr>`;
         });
 });

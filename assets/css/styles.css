@@ -531,3 +531,22 @@ a { text-decoration: none; color: inherit; transition: 0.3s; }
         display: none;
     }
 }
+
+
+/* --- LOGO --- */
+.logo img {
+    height: 60px; /* Ajuste cette valeur selon la taille souhaitée (ex: 50px ou 70px) */
+    width: auto;  /* Garde les proportions de l'image */
+    vertical-align: middle; /* Pour bien l'aligner avec le menu */
+    transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.1); /* Petit effet de zoom sympa au survol */
+}
+
+/* On retire le style de texte qu'on avait avant car c'est une image maintenant */
+.logo {
+    display: flex;
+    align-items: center;
+}
