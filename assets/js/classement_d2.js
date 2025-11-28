@@ -32,7 +32,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     <td class="team-name">${row.equipe}</td>
                     <td><strong>${row.pts}</strong></td>
                     <td>${row.joues}</td>
-                    <td>${row.dif}</td>
                 `;
 
                 // 6. On ajoute la ligne au tableau
