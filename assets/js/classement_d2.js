@@ -40,6 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => {
             console.error('Erreur:', error);
-            tbody.innerHTML = '<tr><td colspan="5" style="color:red;">Classement indisponible pour le moment.</td></tr>';
+            tbody.innerHTML = '<tr><td colspan="4" style="color:red;">Classement indisponible pour le moment.</td></tr>';
         });
 });

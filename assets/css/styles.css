@@ -98,7 +98,7 @@ a { text-decoration: none; color: inherit; transition: 0.3s; }
 .hero-content {
     position: relative;
     z-index: 2; /* Tout devant */
-    max-width: 800px;
+    max-width: 1200px;
     padding: 0 20px;
 }
 

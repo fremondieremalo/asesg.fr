@@ -45,12 +45,8 @@ def get_classement():
         # 3. On applique le renommage
         df = df.rename(columns=mapping)
 
-        # 4. Si la colonne 'dif' manque (ce qui est ton cas), on la crée avec un "-"
-        if 'dif' not in df.columns:
-            df['dif'] = "-"
-
         # 5. On ne garde que les colonnes utiles pour le JSON
-        colonnes_a_garder = ["pos", "equipe", "pts", "joues", "dif"]
+        colonnes_a_garder = ["pos", "equipe", "pts", "joues"]
         # On filtre pour ne garder que celles qui existent vraiment
         cols_finales = [c for c in colonnes_a_garder if c in df.columns]
         df = df[cols_finales]
