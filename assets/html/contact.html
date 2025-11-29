@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | ASESG</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <a href="../../index.html">
+                <img src="../img/logo.jpg" alt="Logo ASESG">
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="../../index.html">Accueil</a></li>
+            <li><a href="actualites.html">Actualités</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">Seniors ▾</a>
+                <div class="dropdown-content">
+                    <a href="senior_r3.html">Régionale 3</a>
+                    <a href="senior_d2.html">Départementale 2</a>
+                    <a href="senior_d3.html">Départementale 3</a>
+                    <a href="senior_d4.html">Départementale 4</a>
+                </div>
+            </li>
+            <li><a href="jeunes.html">Jeunes</a></li>
+            <li><a href="contact.html" class="btn-contact active">Nous contacter</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <header class="page-header contact-header">
+        <div class="header-content reveal">
+            <span class="tag-league">Le Club</span>
+            <h1>Nous <span class="text-orange">Contacter</span></h1>
+            <p>Une question ? Envie de rejoindre l'aventure ?</p>
+        </div>
+    </header>
+
+    <section class="section section-socials">
+        <div class="container text-center">
+            <h2 class="section-title reveal">Suivez-nous <span class="dot">.</span></h2>
+            <p class="reveal delay-1">Retrouvez toute l'actualité du club en direct sur nos réseaux.</p>
+            
+            <div class="hero-socials reveal delay-2" style="margin-top: 40px;">
+                <a href="https://www.instagram.com/asesg_79/" target="_blank" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.facebook.com/ASESG79/" target="_blank" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.tiktok.com/@asesg79" target="_blank" aria-label="TikTok">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-form">
+        <div class="container">
+            <h2 class="section-title reveal">Envoyer un message <span class="dot">.</span></h2>
+            
+            <div class="form-container reveal delay-1">
+                <form action="https://formsubmit.co/fremondiere.malo@gmail.com" method="POST">
+                    
+                    <input type="hidden" name="_next" value="https://fremondieremalo.github.io/asesg.fr/pages/contact.html">
+                    <input type="hidden" name="_subject" value="Nouveau message du site ASESG !">
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="prenom">Prénom</label>
+                            <input type="text" id="prenom" name="prenom" placeholder="Ton prénom" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="nom">Nom</label>
+                            <input type="text" id="nom" name="nom" placeholder="Ton nom" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="input-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="ton.adresse@email.com" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="age">Âge</label>
+                            <input type="number" id="age" name="age" placeholder="Ex: 24" required>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Bonjour, je souhaiterais avoir des informations sur..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-submit">Envoyer le message <i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>ASESG Football © 2025. Tous droits réservés.</p>
+    </footer>
+
+    <script src="../../assets/js/script.js"></script>
+</body>
+</html>
