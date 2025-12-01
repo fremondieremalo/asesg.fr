@@ -1,21 +1,21 @@
 [
     {
         "pos": 1,
-        "equipe": "BOUTONNAIS FC",
-        "pts": 19,
+        "equipe": "UNION SUD DEUX SEVRE",
+        "pts": 22,
         "joues": 8
     },
     {
         "pos": 2,
-        "equipe": "UNION SUD DEUX SEVRE",
+        "equipe": "BOUTONNAIS FC",
         "pts": 19,
-        "joues": 7
+        "joues": 9
     },
     {
         "pos": 3,
         "equipe": "BESSINES ASPTT",
-        "pts": 16,
-        "joues": 8
+        "pts": 19,
+        "joues": 9
     },
     {
         "pos": 4,
@@ -27,48 +27,48 @@
         "pos": 5,
         "equipe": "AVENIR 79 FC 2",
         "pts": 13,
-        "joues": 8
+        "joues": 9
     },
     {
         "pos": 6,
         "equipe": "CHAURAY FC 3",
-        "pts": 11,
-        "joues": 8
+        "pts": 12,
+        "joues": 9
     },
     {
         "pos": 7,
         "equipe": "ECHIRE ST GELAIS AS 2",
-        "pts": 10,
-        "joues": 7
+        "pts": 11,
+        "joues": 8
     },
     {
         "pos": 8,
+        "equipe": "LE TALLUD EVEIL 2",
+        "pts": 10,
+        "joues": 9
+    },
+    {
+        "pos": 9,
         "equipe": "AIFFRES FORS PRAHECQ",
         "pts": 8,
         "joues": 8
     },
     {
-        "pos": 9,
-        "equipe": "LE TALLUD EVEIL 2",
-        "pts": 7,
+        "pos": 10,
+        "equipe": "FC AUTIZE 2",
+        "pts": 6,
         "joues": 8
     },
     {
-        "pos": 10,
+        "pos": 11,
         "equipe": "BRULAIN ES",
         "pts": 5,
-        "joues": 7
-    },
-    {
-        "pos": 11,
-        "equipe": "BEAUVOIR S/NIORT CS",
-        "pts": 4,
         "joues": 8
     },
     {
         "pos": 12,
-        "equipe": "FC AUTIZE 2",
-        "pts": 3,
-        "joues": 7
+        "equipe": "BEAUVOIR S/NIORT CS",
+        "pts": 4,
+        "joues": 9
     }
 ]
