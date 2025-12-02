@@ -19,15 +19,15 @@
     },
     {
         "pos": 4,
-        "equipe": "SUD GATINE FC 2",
-        "pts": 16,
+        "equipe": "ECHIRE ST GELAIS AS 3",
+        "pts": 19,
         "joues": 9
     },
     {
         "pos": 5,
-        "equipe": "ECHIRE ST GELAIS AS 3",
+        "equipe": "SUD GATINE FC 2",
         "pts": 16,
-        "joues": 8
+        "joues": 9
     },
     {
         "pos": 6,
@@ -63,7 +63,7 @@
         "pos": 11,
         "equipe": "PAYS MAIXENTAIS US 2",
         "pts": 6,
-        "joues": 8
+        "joues": 9
     },
     {
         "pos": 12,
