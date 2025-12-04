@@ -19,31 +19,31 @@
     },
     {
         "pos": 4,
+        "equipe": "ECHIRE ST GELAIS AS 4",
+        "pts": 16,
+        "joues": 9
+    },
+    {
+        "pos": 5,
         "equipe": "AVENIR 79 FC 3",
         "pts": 16,
         "joues": 8
     },
     {
-        "pos": 5,
+        "pos": 6,
         "equipe": "NIORT ST FLORENT UA 3",
         "pts": 15,
         "joues": 8
     },
     {
-        "pos": 6,
+        "pos": 7,
         "equipe": "PAYS NÃO-CRÃCHOIS FC 3",
         "pts": 14,
         "joues": 9
     },
     {
-        "pos": 7,
-        "equipe": "FC AUTIZE 3",
-        "pts": 13,
-        "joues": 8
-    },
-    {
         "pos": 8,
-        "equipe": "ECHIRE ST GELAIS AS 4",
+        "equipe": "FC AUTIZE 3",
         "pts": 13,
         "joues": 8
     },
@@ -69,6 +69,6 @@
         "pos": 12,
         "equipe": "SUD GATINE FC 3",
         "pts": 0,
-        "joues": 7
+        "joues": 8
     }
 ]
