@@ -1,17 +1,17 @@
 {
     "prochain": [
         {
-            "date": "07/12/2025",
+            "date": "14/12/2025",
             "heure": "15h00",
             "equipe_domicile": "Echire St Gelais AS",
-            "equipe_exterieur": "FC Chauray 2",
+            "equipe_exterieur": "FC Chauray B",
             "lieu": "Stade Municipal"
         },
         {
-            "date": "14/12/2025",
+            "date": "08/12/2025",
             "heure": "15h00",
-            "equipe_domicile": "FC Nueillaubiers",
-            "equipe_exterieur": "Echire St Gelais AS 2",
+            "equipe_domicile": "ES ABZAC",
+            "equipe_exterieur": "Echire St Gelais AS B",
             "lieu": "Extérieur"
         }
     ]

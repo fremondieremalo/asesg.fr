@@ -428,7 +428,7 @@ a { text-decoration: none; color: inherit; transition: 0.3s; }
     border: 10px solid white; /* Cadre blanc type photo */
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
     transform: rotate(-1deg); /* Petit effet stylé incliné */
-    transition: 0.3s;
+    transition: 0.2s;
 }
 .photo-frame:hover { transform: rotate(0deg) scale(1.02); }
 

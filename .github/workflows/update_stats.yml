@@ -27,6 +27,7 @@ jobs:
       # --- C'EST ICI QUE TU LANCES TES 4 SCRIPTS ---
       - name: Lancer les scripts de scraping
         run: |
+          python scripts/maj_classement_r3.py
           python scripts/maj_classement_d2.py
           python scripts/maj_classement_d3.py
           python scripts/maj_classement_d4.py

@@ -26,6 +26,8 @@ const revealOnScroll = () => {
 
 window.addEventListener('scroll', revealOnScroll);
 
+revealOnScroll();
+
 // 3. Animation des Compteurs (Stats)
 const counters = document.querySelectorAll('.counter');
 let hasAnimated = false; // Pour ne lancer qu'une seule fois
@@ -58,3 +60,4 @@ const animateCounters = () => {
 };
 
 window.addEventListener('scroll', animateCounters);
+
