@@ -2,73 +2,73 @@
     {
         "pos": 1,
         "equipe": "COGNAC FOOTBALL UA",
-        "pts": 22,
-        "joues": 9
+        "pts": 25,
+        "joues": 10
     },
     {
         "pos": 2,
         "equipe": "ECHIRE ST GELAIS AS",
-        "pts": 17,
-        "joues": 9
+        "pts": 20,
+        "joues": 10
     },
     {
         "pos": 3,
-        "equipe": "PAYS MELLOIS AS",
-        "pts": 16,
-        "joues": 8
+        "equipe": "ROYAN VAUX AFC",
+        "pts": 18,
+        "joues": 10
     },
     {
         "pos": 4,
-        "equipe": "ROYAN VAUX AFC",
-        "pts": 15,
-        "joues": 9
+        "equipe": "GRANDE CHAMPAGNE JS",
+        "pts": 16,
+        "joues": 10
     },
     {
         "pos": 5,
-        "equipe": "CHATEAU LARCHER ES",
-        "pts": 13,
+        "equipe": "PAYS MELLOIS AS",
+        "pts": 16,
         "joues": 9
     },
     {
         "pos": 6,
-        "equipe": "ST YRIEIX 16 AS",
+        "equipe": "CHATEAU LARCHER ES",
         "pts": 13,
-        "joues": 9
+        "joues": 10
     },
     {
         "pos": 7,
-        "equipe": "ST PALAIS SPORT FOOT",
+        "equipe": "ST YRIEIX 16 AS",
         "pts": 13,
-        "joues": 8
+        "joues": 10
     },
     {
         "pos": 8,
-        "equipe": "GRANDE CHAMPAGNE JS",
+        "equipe": "ST PALAIS SPORT FOOT",
         "pts": 13,
         "joues": 9
     },
     {
         "pos": 9,
-        "equipe": "CELLES-VERRINES ES",
-        "pts": 11,
-        "joues": 9
+        "equipe": "ROCHEFORT FC 2",
+        "pts": 12,
+        "joues": 10
     },
     {
         "pos": 10,
-        "equipe": "ROCHEFORT FC 2",
-        "pts": 9,
-        "joues": 9
+        "equipe": "CELLES-VERRINES ES",
+        "pts": 11,
+        "joues": 10
     },
     {
         "pos": 11,
         "equipe": "USSON POITOU ISLE J.",
-        "pts": 7,
-        "joues": 9
+        "pts": 10,
+        "joues": 10
     },
     {
         "pos": 12,
         "equipe": "NIEUIL L ESPOIR JS",
         "pts": 2,
-        "joues": 9
+        "joues": 10
     }
 ]
