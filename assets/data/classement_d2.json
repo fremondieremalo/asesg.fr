@@ -19,20 +19,20 @@
     },
     {
         "pos": 4,
+        "equipe": "CHAURAY FC 3",
+        "pts": 15,
+        "joues": 10
+    },
+    {
+        "pos": 5,
         "equipe": "VENISE VERTE FC",
         "pts": 14,
         "joues": 8
     },
     {
-        "pos": 5,
+        "pos": 6,
         "equipe": "AVENIR 79 FC 2",
         "pts": 13,
-        "joues": 9
-    },
-    {
-        "pos": 6,
-        "equipe": "CHAURAY FC 3",
-        "pts": 12,
         "joues": 9
     },
     {
@@ -69,6 +69,6 @@
         "pos": 12,
         "equipe": "BEAUVOIR S/NIORT CS",
         "pts": 4,
-        "joues": 9
+        "joues": 10
     }
 ]

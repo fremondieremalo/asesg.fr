@@ -49,15 +49,15 @@
     },
     {
         "pos": 9,
-        "equipe": "AIFFRES FORS PRAHECQ 3",
-        "pts": 6,
-        "joues": 7
+        "equipe": "BESSINES ASPTT 2",
+        "pts": 8,
+        "joues": 10
     },
     {
         "pos": 10,
-        "equipe": "BESSINES ASPTT 2",
-        "pts": 5,
-        "joues": 9
+        "equipe": "AIFFRES FORS PRAHECQ 3",
+        "pts": 6,
+        "joues": 7
     },
     {
         "pos": 11,
@@ -69,6 +69,6 @@
         "pos": 12,
         "equipe": "SUD GATINE FC 3",
         "pts": 0,
-        "joues": 8
+        "joues": 9
     }
 ]
