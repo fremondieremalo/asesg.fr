@@ -31,20 +31,20 @@
     },
     {
         "pos": 6,
+        "equipe": "NIORT PEXINOISE US",
+        "pts": 13,
+        "joues": 10
+    },
+    {
+        "pos": 7,
         "equipe": "CHAMPDENIERS PAMPLIE",
         "pts": 12,
         "joues": 9
     },
     {
-        "pos": 7,
+        "pos": 8,
         "equipe": "NIORT CLOU BOUCHET",
         "pts": 12,
-        "joues": 9
-    },
-    {
-        "pos": 8,
-        "equipe": "NIORT PEXINOISE US",
-        "pts": 10,
         "joues": 9
     },
     {
@@ -57,7 +57,7 @@
         "pos": 10,
         "equipe": "CHAURAY FC 4",
         "pts": 6,
-        "joues": 9
+        "joues": 10
     },
     {
         "pos": 11,
