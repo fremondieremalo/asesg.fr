@@ -8,8 +8,8 @@
     {
         "pos": 2,
         "equipe": "PAYS NÃO-CRÃCHOIS FC 2",
-        "pts": 22,
-        "joues": 9
+        "pts": 23,
+        "joues": 10
     },
     {
         "pos": 3,
@@ -55,15 +55,15 @@
     },
     {
         "pos": 10,
-        "equipe": "CHAURAY FC 4",
-        "pts": 6,
+        "equipe": "PAYS MAIXENTAIS US 2",
+        "pts": 7,
         "joues": 10
     },
     {
         "pos": 11,
-        "equipe": "PAYS MAIXENTAIS US 2",
+        "equipe": "CHAURAY FC 4",
         "pts": 6,
-        "joues": 9
+        "joues": 10
     },
     {
         "pos": 12,
