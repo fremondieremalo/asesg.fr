@@ -2,8 +2,8 @@
     {
         "pos": 1,
         "equipe": "UNION SUD DEUX SEVRE",
-        "pts": 22,
-        "joues": 8
+        "pts": 25,
+        "joues": 9
     },
     {
         "pos": 2,
@@ -26,8 +26,8 @@
     {
         "pos": 5,
         "equipe": "VENISE VERTE FC",
-        "pts": 14,
-        "joues": 8
+        "pts": 15,
+        "joues": 9
     },
     {
         "pos": 6,
@@ -50,8 +50,8 @@
     {
         "pos": 9,
         "equipe": "AIFFRES FORS PRAHECQ",
-        "pts": 8,
-        "joues": 8
+        "pts": 9,
+        "joues": 9
     },
     {
         "pos": 10,
@@ -63,7 +63,7 @@
         "pos": 11,
         "equipe": "BRULAIN ES",
         "pts": 5,
-        "joues": 8
+        "joues": 9
     },
     {
         "pos": 12,
