@@ -13,21 +13,21 @@
     },
     {
         "pos": 3,
+        "equipe": "PAYS MELLOIS AS",
+        "pts": 19,
+        "joues": 10
+    },
+    {
+        "pos": 4,
         "equipe": "ROYAN VAUX AFC",
         "pts": 18,
         "joues": 10
     },
     {
-        "pos": 4,
+        "pos": 5,
         "equipe": "GRANDE CHAMPAGNE JS",
         "pts": 16,
         "joues": 10
-    },
-    {
-        "pos": 5,
-        "equipe": "PAYS MELLOIS AS",
-        "pts": 16,
-        "joues": 9
     },
     {
         "pos": 6,
@@ -45,7 +45,7 @@
         "pos": 8,
         "equipe": "ST PALAIS SPORT FOOT",
         "pts": 13,
-        "joues": 9
+        "joues": 10
     },
     {
         "pos": 9,
