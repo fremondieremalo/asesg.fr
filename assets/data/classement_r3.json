@@ -2,30 +2,30 @@
     {
         "pos": 1,
         "equipe": "COGNAC FOOTBALL UA",
-        "pts": 25,
-        "joues": 10
+        "pts": 26,
+        "joues": 11
     },
     {
         "pos": 2,
+        "equipe": "ROYAN VAUX AFC",
+        "pts": 21,
+        "joues": 11
+    },
+    {
+        "pos": 3,
         "equipe": "ECHIRE ST GELAIS AS",
         "pts": 20,
         "joues": 10
     },
     {
-        "pos": 3,
-        "equipe": "ROYAN VAUX AFC",
-        "pts": 18,
-        "joues": 10
-    },
-    {
         "pos": 4,
-        "equipe": "ST PALAIS SPORT FOOT",
-        "pts": 16,
-        "joues": 10
+        "equipe": "GRANDE CHAMPAGNE JS",
+        "pts": 17,
+        "joues": 11
     },
     {
         "pos": 5,
-        "equipe": "GRANDE CHAMPAGNE JS",
+        "equipe": "ST PALAIS SPORT FOOT",
         "pts": 16,
         "joues": 10
     },
@@ -45,7 +45,7 @@
         "pos": 8,
         "equipe": "ST YRIEIX 16 AS",
         "pts": 13,
-        "joues": 10
+        "joues": 11
     },
     {
         "pos": 9,
@@ -56,8 +56,8 @@
     {
         "pos": 10,
         "equipe": "CELLES-VERRINES ES",
-        "pts": 11,
-        "joues": 10
+        "pts": 12,
+        "joues": 11
     },
     {
         "pos": 11,
@@ -68,7 +68,7 @@
     {
         "pos": 12,
         "equipe": "NIEUIL L ESPOIR JS",
-        "pts": 2,
-        "joues": 10
+        "pts": 3,
+        "joues": 11
     }
 ]

@@ -37,27 +37,27 @@
     },
     {
         "pos": 7,
+        "equipe": "GATI FOOT 3",
+        "pts": 13,
+        "joues": 10
+    },
+    {
+        "pos": 8,
         "equipe": "CHAMPDENIERS PAMPLIE",
         "pts": 12,
         "joues": 9
     },
     {
-        "pos": 8,
+        "pos": 9,
         "equipe": "NIORT CLOU BOUCHET",
         "pts": 12,
-        "joues": 9
-    },
-    {
-        "pos": 9,
-        "equipe": "GATI FOOT 3",
-        "pts": 10,
         "joues": 9
     },
     {
         "pos": 10,
         "equipe": "PAYS MAIXENTAIS US 2",
         "pts": 7,
-        "joues": 10
+        "joues": 11
     },
     {
         "pos": 11,
