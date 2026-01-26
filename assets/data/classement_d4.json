@@ -7,63 +7,63 @@
     },
     {
         "pos": 2,
+        "equipe": "AVENIR 79 FC 3",
+        "pts": 19,
+        "joues": 10
+    },
+    {
+        "pos": 3,
         "equipe": "NIORT ST FLORENT UA 3",
         "pts": 18,
         "joues": 9
     },
     {
-        "pos": 3,
+        "pos": 4,
         "equipe": "STE OUENNE AS",
         "pts": 18,
         "joues": 9
     },
     {
-        "pos": 4,
+        "pos": 5,
         "equipe": "NIORT SOUCHEEN SA",
         "pts": 17,
         "joues": 9
     },
     {
-        "pos": 5,
+        "pos": 6,
         "equipe": "PAYS NÃO-CRÃCHOIS FC 3",
         "pts": 17,
         "joues": 10
     },
     {
-        "pos": 6,
+        "pos": 7,
         "equipe": "FC AUTIZE 3",
         "pts": 16,
         "joues": 9
     },
     {
-        "pos": 7,
+        "pos": 8,
         "equipe": "ECHIRE ST GELAIS AS 4",
         "pts": 16,
         "joues": 9
     },
     {
-        "pos": 8,
-        "equipe": "AVENIR 79 FC 3",
-        "pts": 16,
+        "pos": 9,
+        "equipe": "AIFFRES FORS PRAHECQ 3",
+        "pts": 9,
         "joues": 9
     },
     {
-        "pos": 9,
+        "pos": 10,
         "equipe": "BESSINES ASPTT 2",
         "pts": 8,
-        "joues": 10
-    },
-    {
-        "pos": 10,
-        "equipe": "AIFFRES FORS PRAHECQ 3",
-        "pts": 6,
-        "joues": 8
+        "joues": 11
     },
     {
         "pos": 11,
         "equipe": "PAYS MAIXENTAIS US 3",
         "pts": 3,
-        "joues": 9
+        "joues": 10
     },
     {
         "pos": 12,

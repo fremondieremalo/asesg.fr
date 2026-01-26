@@ -9,7 +9,7 @@
         "pos": 2,
         "equipe": "BESSINES ASPTT",
         "pts": 22,
-        "joues": 10
+        "joues": 11
     },
     {
         "pos": 3,
@@ -19,26 +19,26 @@
     },
     {
         "pos": 4,
+        "equipe": "AVENIR 79 FC 2",
+        "pts": 16,
+        "joues": 10
+    },
+    {
+        "pos": 5,
         "equipe": "CHAURAY FC 3",
         "pts": 15,
         "joues": 10
     },
     {
-        "pos": 5,
+        "pos": 6,
         "equipe": "VENISE VERTE FC",
         "pts": 15,
         "joues": 9
     },
     {
-        "pos": 6,
+        "pos": 7,
         "equipe": "ECHIRE ST GELAIS AS 2",
         "pts": 14,
-        "joues": 9
-    },
-    {
-        "pos": 7,
-        "equipe": "AVENIR 79 FC 2",
-        "pts": 13,
         "joues": 9
     },
     {
@@ -51,18 +51,18 @@
         "pos": 9,
         "equipe": "AIFFRES FORS PRAHECQ",
         "pts": 9,
-        "joues": 9
+        "joues": 10
     },
     {
         "pos": 10,
-        "equipe": "FC AUTIZE 2",
-        "pts": 6,
-        "joues": 9
+        "equipe": "BRULAIN ES",
+        "pts": 8,
+        "joues": 10
     },
     {
         "pos": 11,
-        "equipe": "BRULAIN ES",
-        "pts": 5,
+        "equipe": "FC AUTIZE 2",
+        "pts": 6,
         "joues": 9
     },
     {
