@@ -3,7 +3,7 @@
         "pos": 1,
         "equipe": "COGNAC FOOTBALL UA",
         "pts": 26,
-        "joues": 11
+        "joues": 12
     },
     {
         "pos": 2,
@@ -20,8 +20,8 @@
     {
         "pos": 4,
         "equipe": "GRANDE CHAMPAGNE JS",
-        "pts": 17,
-        "joues": 11
+        "pts": 18,
+        "joues": 12
     },
     {
         "pos": 5,
@@ -37,26 +37,26 @@
     },
     {
         "pos": 7,
+        "equipe": "ROCHEFORT FC 2",
+        "pts": 15,
+        "joues": 11
+    },
+    {
+        "pos": 8,
         "equipe": "CHATEAU LARCHER ES",
         "pts": 13,
         "joues": 10
     },
     {
-        "pos": 8,
-        "equipe": "ST YRIEIX 16 AS",
-        "pts": 13,
-        "joues": 11
-    },
-    {
         "pos": 9,
-        "equipe": "ROCHEFORT FC 2",
-        "pts": 12,
-        "joues": 10
+        "equipe": "CELLES-VERRINES ES",
+        "pts": 13,
+        "joues": 12
     },
     {
         "pos": 10,
-        "equipe": "CELLES-VERRINES ES",
-        "pts": 12,
+        "equipe": "ST YRIEIX 16 AS",
+        "pts": 13,
         "joues": 11
     },
     {
