@@ -8,8 +8,8 @@
     {
         "pos": 2,
         "equipe": "ROYAN VAUX AFC",
-        "pts": 21,
-        "joues": 11
+        "pts": 22,
+        "joues": 12
     },
     {
         "pos": 3,
@@ -25,45 +25,45 @@
     },
     {
         "pos": 5,
-        "equipe": "ST PALAIS SPORT FOOT",
-        "pts": 16,
-        "joues": 10
-    },
-    {
-        "pos": 6,
         "equipe": "PAYS MELLOIS AS",
         "pts": 16,
         "joues": 10
     },
     {
+        "pos": 6,
+        "equipe": "ST PALAIS SPORT FOOT",
+        "pts": 16,
+        "joues": 10
+    },
+    {
         "pos": 7,
+        "equipe": "ST YRIEIX 16 AS",
+        "pts": 16,
+        "joues": 12
+    },
+    {
+        "pos": 8,
         "equipe": "ROCHEFORT FC 2",
         "pts": 15,
         "joues": 11
     },
     {
-        "pos": 8,
+        "pos": 9,
+        "equipe": "CELLES-VERRINES ES",
+        "pts": 14,
+        "joues": 13
+    },
+    {
+        "pos": 10,
         "equipe": "CHATEAU LARCHER ES",
         "pts": 13,
         "joues": 10
     },
     {
-        "pos": 9,
-        "equipe": "CELLES-VERRINES ES",
-        "pts": 13,
-        "joues": 12
-    },
-    {
-        "pos": 10,
-        "equipe": "ST YRIEIX 16 AS",
-        "pts": 13,
-        "joues": 11
-    },
-    {
         "pos": 11,
         "equipe": "USSON POITOU ISLE J.",
         "pts": 10,
-        "joues": 10
+        "joues": 11
     },
     {
         "pos": 12,
