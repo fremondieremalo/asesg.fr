@@ -37,21 +37,21 @@
     },
     {
         "pos": 7,
-        "equipe": "NIORT CLOU BOUCHET",
+        "equipe": "CHAMPDENIERS PAMPLIE",
         "pts": 13,
         "joues": 10
     },
     {
         "pos": 8,
-        "equipe": "GATI FOOT 3",
+        "equipe": "NIORT CLOU BOUCHET",
         "pts": 13,
         "joues": 10
     },
     {
         "pos": 9,
-        "equipe": "CHAMPDENIERS PAMPLIE",
-        "pts": 12,
-        "joues": 9
+        "equipe": "GATI FOOT 3",
+        "pts": 13,
+        "joues": 10
     },
     {
         "pos": 10,
@@ -68,7 +68,7 @@
     {
         "pos": 12,
         "equipe": "PARTHENAY PORTUGAIS",
-        "pts": 0,
-        "joues": 8
+        "pts": 1,
+        "joues": 9
     }
 ]
