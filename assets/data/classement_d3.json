@@ -25,15 +25,15 @@
     },
     {
         "pos": 5,
-        "equipe": "SUD GATINE FC 2",
-        "pts": 16,
-        "joues": 9
+        "equipe": "NIORT PEXINOISE US",
+        "pts": 17,
+        "joues": 12
     },
     {
         "pos": 6,
-        "equipe": "NIORT PEXINOISE US",
-        "pts": 14,
-        "joues": 11
+        "equipe": "SUD GATINE FC 2",
+        "pts": 16,
+        "joues": 9
     },
     {
         "pos": 7,
@@ -45,7 +45,7 @@
         "pos": 8,
         "equipe": "NIORT CLOU BOUCHET",
         "pts": 13,
-        "joues": 10
+        "joues": 11
     },
     {
         "pos": 9,
@@ -56,8 +56,8 @@
     {
         "pos": 10,
         "equipe": "PAYS MAIXENTAIS US 2",
-        "pts": 7,
-        "joues": 11
+        "pts": 10,
+        "joues": 12
     },
     {
         "pos": 11,
@@ -69,6 +69,6 @@
         "pos": 12,
         "equipe": "PARTHENAY PORTUGAIS",
         "pts": 1,
-        "joues": 9
+        "joues": 10
     }
 ]
