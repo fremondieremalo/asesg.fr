@@ -7,21 +7,21 @@
     },
     {
         "pos": 2,
+        "equipe": "ECHIRE ST GELAIS AS",
+        "pts": 23,
+        "joues": 11
+    },
+    {
+        "pos": 3,
         "equipe": "ROYAN VAUX AFC",
         "pts": 22,
         "joues": 12
     },
     {
-        "pos": 3,
+        "pos": 4,
         "equipe": "GRANDE CHAMPAGNE JS",
         "pts": 21,
         "joues": 13
-    },
-    {
-        "pos": 4,
-        "equipe": "ECHIRE ST GELAIS AS",
-        "pts": 20,
-        "joues": 10
     },
     {
         "pos": 5,
@@ -45,7 +45,7 @@
         "pos": 8,
         "equipe": "ROCHEFORT FC 2",
         "pts": 15,
-        "joues": 12
+        "joues": 13
     },
     {
         "pos": 9,
