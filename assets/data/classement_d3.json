@@ -2,14 +2,14 @@
     {
         "pos": 1,
         "equipe": "VASLEENNE US",
-        "pts": 25,
-        "joues": 9
+        "pts": 28,
+        "joues": 10
     },
     {
         "pos": 2,
         "equipe": "PAYS NÃO-CRÃCHOIS FC 2",
-        "pts": 23,
-        "joues": 10
+        "pts": 26,
+        "joues": 11
     },
     {
         "pos": 3,
@@ -57,13 +57,13 @@
         "pos": 10,
         "equipe": "PAYS MAIXENTAIS US 2",
         "pts": 10,
-        "joues": 12
+        "joues": 13
     },
     {
         "pos": 11,
         "equipe": "CHAURAY FC 4",
         "pts": 9,
-        "joues": 11
+        "joues": 12
     },
     {
         "pos": 12,
