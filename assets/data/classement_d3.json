@@ -13,45 +13,45 @@
     },
     {
         "pos": 3,
+        "equipe": "ECHIRE ST GELAIS AS 3",
+        "pts": 22,
+        "joues": 11
+    },
+    {
+        "pos": 4,
         "equipe": "LE TALLUD EVEIL 3",
         "pts": 19,
         "joues": 10
     },
     {
-        "pos": 4,
-        "equipe": "ECHIRE ST GELAIS AS 3",
+        "pos": 5,
+        "equipe": "SUD GATINE FC 2",
         "pts": 19,
         "joues": 10
     },
     {
-        "pos": 5,
+        "pos": 6,
         "equipe": "NIORT PEXINOISE US",
         "pts": 17,
         "joues": 12
     },
     {
-        "pos": 6,
-        "equipe": "SUD GATINE FC 2",
-        "pts": 16,
-        "joues": 9
-    },
-    {
         "pos": 7,
         "equipe": "CHAMPDENIERS PAMPLIE",
-        "pts": 13,
-        "joues": 10
+        "pts": 16,
+        "joues": 11
     },
     {
         "pos": 8,
         "equipe": "NIORT CLOU BOUCHET",
         "pts": 13,
-        "joues": 11
+        "joues": 12
     },
     {
         "pos": 9,
         "equipe": "GATI FOOT 3",
         "pts": 13,
-        "joues": 10
+        "joues": 11
     },
     {
         "pos": 10,
@@ -69,6 +69,6 @@
         "pos": 12,
         "equipe": "PARTHENAY PORTUGAIS",
         "pts": 1,
-        "joues": 10
+        "joues": 11
     }
 ]

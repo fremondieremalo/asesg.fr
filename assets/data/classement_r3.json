@@ -31,44 +31,44 @@
     },
     {
         "pos": 6,
-        "equipe": "PAYS MELLOIS AS",
+        "equipe": "CHATEAU LARCHER ES",
         "pts": 16,
         "joues": 11
     },
     {
         "pos": 7,
-        "equipe": "ST PALAIS SPORT FOOT",
+        "equipe": "PAYS MELLOIS AS",
         "pts": 16,
         "joues": 11
     },
     {
         "pos": 8,
-        "equipe": "ST YRIEIX 16 AS",
+        "equipe": "ST PALAIS SPORT FOOT",
         "pts": 16,
-        "joues": 12
+        "joues": 11
     },
     {
         "pos": 9,
+        "equipe": "ST YRIEIX 16 AS",
+        "pts": 16,
+        "joues": 13
+    },
+    {
+        "pos": 10,
         "equipe": "ROCHEFORT FC 2",
         "pts": 15,
         "joues": 14
     },
     {
-        "pos": 10,
-        "equipe": "CHATEAU LARCHER ES",
-        "pts": 13,
-        "joues": 10
-    },
-    {
         "pos": 11,
         "equipe": "USSON POITOU ISLE J.",
-        "pts": 10,
-        "joues": 11
+        "pts": 13,
+        "joues": 12
     },
     {
         "pos": 12,
         "equipe": "NIEUIL L ESPOIR JS",
         "pts": 3,
-        "joues": 11
+        "joues": 12
     }
 ]
