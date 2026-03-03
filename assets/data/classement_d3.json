@@ -13,15 +13,15 @@
     },
     {
         "pos": 3,
-        "equipe": "ECHIRE ST GELAIS AS 3",
+        "equipe": "LE TALLUD EVEIL 3",
         "pts": 22,
         "joues": 11
     },
     {
         "pos": 4,
-        "equipe": "LE TALLUD EVEIL 3",
-        "pts": 19,
-        "joues": 10
+        "equipe": "ECHIRE ST GELAIS AS 3",
+        "pts": 22,
+        "joues": 11
     },
     {
         "pos": 5,
@@ -33,7 +33,7 @@
         "pos": 6,
         "equipe": "NIORT PEXINOISE US",
         "pts": 17,
-        "joues": 12
+        "joues": 13
     },
     {
         "pos": 7,

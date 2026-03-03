@@ -2,20 +2,20 @@
     {
         "pos": 1,
         "equipe": "AVENIR 79 FC 3",
-        "pts": 22,
-        "joues": 11
+        "pts": 25,
+        "joues": 12
     },
     {
         "pos": 2,
-        "equipe": "NIORT ST FLORENT UA 3",
-        "pts": 22,
+        "equipe": "BUSLAURS THIREUIL 2",
+        "pts": 23,
         "joues": 11
     },
     {
         "pos": 3,
-        "equipe": "BUSLAURS THIREUIL 2",
-        "pts": 20,
-        "joues": 10
+        "equipe": "NIORT ST FLORENT UA 3",
+        "pts": 22,
+        "joues": 11
     },
     {
         "pos": 4,
@@ -33,7 +33,7 @@
         "pos": 6,
         "equipe": "STE OUENNE AS",
         "pts": 18,
-        "joues": 10
+        "joues": 11
     },
     {
         "pos": 7,
@@ -69,6 +69,6 @@
         "pos": 12,
         "equipe": "SUD GATINE FC 3",
         "pts": 0,
-        "joues": 10
+        "joues": 11
     }
 ]
