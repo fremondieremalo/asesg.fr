@@ -19,15 +19,15 @@
     },
     {
         "pos": 4,
-        "equipe": "ECHIRE ST GELAIS AS 4",
-        "pts": 19,
-        "joues": 10
+        "equipe": "NIORT SOUCHEEN SA",
+        "pts": 22,
+        "joues": 12
     },
     {
         "pos": 5,
-        "equipe": "NIORT SOUCHEEN SA",
+        "equipe": "ECHIRE ST GELAIS AS 4",
         "pts": 19,
-        "joues": 11
+        "joues": 10
     },
     {
         "pos": 6,
@@ -57,7 +57,7 @@
         "pos": 10,
         "equipe": "BESSINES ASPTT 2",
         "pts": 8,
-        "joues": 12
+        "joues": 13
     },
     {
         "pos": 11,
