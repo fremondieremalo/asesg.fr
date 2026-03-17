@@ -44,8 +44,8 @@
     {
         "pos": 8,
         "equipe": "PAYS NÃO-CRÃCHOIS FC 3",
-        "pts": 17,
-        "joues": 11
+        "pts": 20,
+        "joues": 12
     },
     {
         "pos": 9,
@@ -69,6 +69,6 @@
         "pos": 12,
         "equipe": "SUD GATINE FC 3",
         "pts": -1,
-        "joues": 11
+        "joues": 12
     }
 ]
