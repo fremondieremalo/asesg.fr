@@ -2,14 +2,14 @@
     {
         "pos": 1,
         "equipe": "VASLEENNE US",
-        "pts": 34,
-        "joues": 12
+        "pts": 37,
+        "joues": 13
     },
     {
         "pos": 2,
         "equipe": "PAYS NÃO-CRÃCHOIS FC 2",
         "pts": 29,
-        "joues": 13
+        "joues": 14
     },
     {
         "pos": 3,
@@ -43,21 +43,21 @@
     },
     {
         "pos": 8,
-        "equipe": "NIORT CLOU BOUCHET",
+        "equipe": "GATI FOOT 3",
         "pts": 16,
         "joues": 14
     },
     {
         "pos": 9,
-        "equipe": "PAYS MAIXENTAIS US 2",
-        "pts": 14,
+        "equipe": "NIORT CLOU BOUCHET",
+        "pts": 16,
         "joues": 15
     },
     {
         "pos": 10,
-        "equipe": "GATI FOOT 3",
-        "pts": 13,
-        "joues": 13
+        "equipe": "PAYS MAIXENTAIS US 2",
+        "pts": 14,
+        "joues": 15
     },
     {
         "pos": 11,
