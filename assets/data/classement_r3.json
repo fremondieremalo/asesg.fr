@@ -8,8 +8,8 @@
     {
         "pos": 2,
         "equipe": "ECHIRE ST GELAIS AS",
-        "pts": 30,
-        "joues": 14
+        "pts": 33,
+        "joues": 15
     },
     {
         "pos": 3,
@@ -39,7 +39,7 @@
         "pos": 7,
         "equipe": "CHATEAU LARCHER ES",
         "pts": 20,
-        "joues": 13
+        "joues": 14
     },
     {
         "pos": 8,
@@ -55,15 +55,15 @@
     },
     {
         "pos": 10,
-        "equipe": "CELLES-VERRINES ES",
+        "equipe": "USSON POITOU ISLE J.",
         "pts": 17,
         "joues": 15
     },
     {
         "pos": 11,
-        "equipe": "USSON POITOU ISLE J.",
-        "pts": 14,
-        "joues": 14
+        "equipe": "CELLES-VERRINES ES",
+        "pts": 17,
+        "joues": 16
     },
     {
         "pos": 12,

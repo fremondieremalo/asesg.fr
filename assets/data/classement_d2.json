@@ -2,73 +2,73 @@
     {
         "pos": 1,
         "equipe": "UNION SUD DEUX SEVRE",
-        "pts": 34,
-        "joues": 12
-    },
-    {
-        "pos": 2,
-        "equipe": "BESSINES ASPTT",
-        "pts": 28,
-        "joues": 15
-    },
-    {
-        "pos": 3,
-        "equipe": "BOUTONNAIS FC",
-        "pts": 28,
+        "pts": 37,
         "joues": 13
     },
     {
+        "pos": 2,
+        "equipe": "BOUTONNAIS FC",
+        "pts": 31,
+        "joues": 14
+    },
+    {
+        "pos": 3,
+        "equipe": "BESSINES ASPTT",
+        "pts": 28,
+        "joues": 16
+    },
+    {
         "pos": 4,
-        "equipe": "AVENIR 79 FC 2",
-        "pts": 23,
+        "equipe": "VENISE VERTE FC",
+        "pts": 24,
         "joues": 13
     },
     {
         "pos": 5,
-        "equipe": "CHAURAY FC 3",
-        "pts": 21,
-        "joues": 13
+        "equipe": "AVENIR 79 FC 2",
+        "pts": 24,
+        "joues": 14
     },
     {
         "pos": 6,
-        "equipe": "VENISE VERTE FC",
-        "pts": 21,
-        "joues": 12
+        "equipe": "CHAURAY FC 3",
+        "pts": 22,
+        "joues": 14
     },
     {
         "pos": 7,
         "equipe": "ECHIRE ST GELAIS AS 2",
         "pts": 17,
-        "joues": 13
+        "joues": 14
     },
     {
         "pos": 8,
-        "equipe": "BRULAIN ES",
-        "pts": 11,
-        "joues": 13
+        "equipe": "BEAUVOIR S/NIORT CS",
+        "pts": 13,
+        "joues": 14
     },
     {
         "pos": 9,
-        "equipe": "LE TALLUD EVEIL 2",
-        "pts": 10,
-        "joues": 12
+        "equipe": "AIFFRES FORS PRAHECQ",
+        "pts": 12,
+        "joues": 14
     },
     {
         "pos": 10,
-        "equipe": "BEAUVOIR S/NIORT CS",
-        "pts": 10,
-        "joues": 13
+        "equipe": "BRULAIN ES",
+        "pts": 11,
+        "joues": 14
     },
     {
         "pos": 11,
-        "equipe": "AIFFRES FORS PRAHECQ",
-        "pts": 9,
+        "equipe": "LE TALLUD EVEIL 2",
+        "pts": 10,
         "joues": 13
     },
     {
         "pos": 12,
         "equipe": "FC AUTIZE 2",
         "pts": 7,
-        "joues": 12
+        "joues": 13
     }
 ]
