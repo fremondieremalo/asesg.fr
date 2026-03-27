@@ -43,20 +43,20 @@
     },
     {
         "pos": 8,
+        "equipe": "PAYS MAIXENTAIS US 2",
+        "pts": 17,
+        "joues": 16
+    },
+    {
+        "pos": 9,
         "equipe": "GATI FOOT 3",
         "pts": 16,
         "joues": 14
     },
     {
-        "pos": 9,
+        "pos": 10,
         "equipe": "NIORT CLOU BOUCHET",
         "pts": 16,
-        "joues": 15
-    },
-    {
-        "pos": 10,
-        "equipe": "PAYS MAIXENTAIS US 2",
-        "pts": 14,
         "joues": 15
     },
     {
@@ -68,7 +68,7 @@
     {
         "pos": 12,
         "equipe": "PARTHENAY PORTUGAIS",
-        "pts": 2,
-        "joues": 13
+        "pts": 3,
+        "joues": 14
     }
 ]
