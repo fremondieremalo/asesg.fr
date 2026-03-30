@@ -9,66 +9,66 @@
         "pos": 2,
         "equipe": "PAYS NÃO-CRÃCHOIS FC 2",
         "pts": 29,
-        "joues": 14
+        "joues": 15
     },
     {
         "pos": 3,
         "equipe": "LE TALLUD EVEIL 3",
         "pts": 29,
-        "joues": 14
+        "joues": 15
     },
     {
         "pos": 4,
         "equipe": "ECHIRE ST GELAIS AS 3",
-        "pts": 24,
-        "joues": 14
+        "pts": 27,
+        "joues": 15
     },
     {
         "pos": 5,
         "equipe": "SUD GATINE FC 2",
         "pts": 23,
-        "joues": 13
-    },
-    {
-        "pos": 6,
-        "equipe": "CHAMPDENIERS PAMPLIE",
-        "pts": 20,
         "joues": 14
     },
     {
-        "pos": 7,
+        "pos": 6,
         "equipe": "NIORT PEXINOISE US",
-        "pts": 19,
-        "joues": 16
+        "pts": 22,
+        "joues": 17
+    },
+    {
+        "pos": 7,
+        "equipe": "CHAMPDENIERS PAMPLIE",
+        "pts": 20,
+        "joues": 15
     },
     {
         "pos": 8,
         "equipe": "PAYS MAIXENTAIS US 2",
-        "pts": 17,
-        "joues": 16
+        "pts": 20,
+        "joues": 17
     },
     {
         "pos": 9,
-        "equipe": "GATI FOOT 3",
-        "pts": 16,
-        "joues": 15
+        "equipe": "NIORT CLOU BOUCHET",
+        "pts": 19,
+        "joues": 16
     },
     {
         "pos": 10,
-        "equipe": "NIORT CLOU BOUCHET",
+        "equipe": "GATI FOOT 3",
         "pts": 16,
         "joues": 15
     },
     {
         "pos": 11,
         "equipe": "CHAURAY FC 4",
-        "pts": 13,
-        "joues": 15
+        "pts": 16,
+        "joues": 16
     },
     {
         "pos": 12,
         "equipe": "PARTHENAY PORTUGAIS",
-        "pts": 3,
-        "joues": 14
+        "pts": 1,
+        "joues": 15
     }
 ]

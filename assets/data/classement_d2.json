@@ -2,8 +2,8 @@
     {
         "pos": 1,
         "equipe": "UNION SUD DEUX SEVRE",
-        "pts": 37,
-        "joues": 13
+        "pts": 38,
+        "joues": 14
     },
     {
         "pos": 2,
@@ -14,32 +14,32 @@
     {
         "pos": 3,
         "equipe": "BESSINES ASPTT",
-        "pts": 28,
-        "joues": 16
+        "pts": 29,
+        "joues": 17
     },
     {
         "pos": 4,
-        "equipe": "VENISE VERTE FC",
-        "pts": 24,
-        "joues": 13
+        "equipe": "AVENIR 79 FC 2",
+        "pts": 27,
+        "joues": 15
     },
     {
         "pos": 5,
-        "equipe": "AVENIR 79 FC 2",
-        "pts": 24,
+        "equipe": "VENISE VERTE FC",
+        "pts": 25,
         "joues": 14
     },
     {
         "pos": 6,
         "equipe": "CHAURAY FC 3",
-        "pts": 22,
-        "joues": 14
+        "pts": 23,
+        "joues": 15
     },
     {
         "pos": 7,
         "equipe": "ECHIRE ST GELAIS AS 2",
         "pts": 17,
-        "joues": 14
+        "joues": 15
     },
     {
         "pos": 8,
@@ -49,26 +49,26 @@
     },
     {
         "pos": 9,
-        "equipe": "AIFFRES FORS PRAHECQ",
-        "pts": 12,
-        "joues": 14
+        "equipe": "BRULAIN ES",
+        "pts": 14,
+        "joues": 15
     },
     {
         "pos": 10,
-        "equipe": "BRULAIN ES",
-        "pts": 11,
-        "joues": 14
+        "equipe": "AIFFRES FORS PRAHECQ",
+        "pts": 13,
+        "joues": 15
     },
     {
         "pos": 11,
         "equipe": "LE TALLUD EVEIL 2",
         "pts": 10,
-        "joues": 13
+        "joues": 14
     },
     {
         "pos": 12,
         "equipe": "FC AUTIZE 2",
-        "pts": 7,
-        "joues": 13
+        "pts": 8,
+        "joues": 14
     }
 ]
