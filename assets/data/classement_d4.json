@@ -19,15 +19,15 @@
     },
     {
         "pos": 4,
-        "equipe": "NIORT ST FLORENT UA 3",
-        "pts": 27,
+        "equipe": "STE OUENNE AS",
+        "pts": 30,
         "joues": 15
     },
     {
         "pos": 5,
-        "equipe": "STE OUENNE AS",
+        "equipe": "NIORT ST FLORENT UA 3",
         "pts": 27,
-        "joues": 14
+        "joues": 15
     },
     {
         "pos": 6,
@@ -39,7 +39,7 @@
         "pos": 7,
         "equipe": "ECHIRE ST GELAIS AS 4",
         "pts": 21,
-        "joues": 13
+        "joues": 14
     },
     {
         "pos": 8,
