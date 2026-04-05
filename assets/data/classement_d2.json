@@ -27,7 +27,7 @@
         "pos": 5,
         "equipe": "VENISE VERTE FC",
         "pts": 25,
-        "joues": 14
+        "joues": 15
     },
     {
         "pos": 6,
@@ -43,14 +43,14 @@
     },
     {
         "pos": 8,
-        "equipe": "BEAUVOIR S/NIORT CS",
-        "pts": 16,
-        "joues": 15
+        "equipe": "BRULAIN ES",
+        "pts": 17,
+        "joues": 16
     },
     {
         "pos": 9,
-        "equipe": "BRULAIN ES",
-        "pts": 14,
+        "equipe": "BEAUVOIR S/NIORT CS",
+        "pts": 16,
         "joues": 15
     },
     {

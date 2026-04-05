@@ -1,15 +1,15 @@
 [
     {
         "pos": 1,
-        "equipe": "AVENIR 79 FC 3",
+        "equipe": "NIORT SOUCHEEN SA",
         "pts": 34,
         "joues": 16
     },
     {
         "pos": 2,
-        "equipe": "NIORT SOUCHEEN SA",
-        "pts": 31,
-        "joues": 15
+        "equipe": "AVENIR 79 FC 3",
+        "pts": 34,
+        "joues": 16
     },
     {
         "pos": 3,
@@ -39,7 +39,7 @@
         "pos": 7,
         "equipe": "ECHIRE ST GELAIS AS 4",
         "pts": 21,
-        "joues": 14
+        "joues": 15
     },
     {
         "pos": 8,
