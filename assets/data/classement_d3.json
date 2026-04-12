@@ -7,14 +7,14 @@
     },
     {
         "pos": 2,
-        "equipe": "ECHIRE ST GELAIS AS 3",
-        "pts": 30,
-        "joues": 16
+        "equipe": "PAYS NÃO-CRÃCHOIS FC 2",
+        "pts": 32,
+        "joues": 17
     },
     {
         "pos": 3,
-        "equipe": "PAYS NÃO-CRÃCHOIS FC 2",
-        "pts": 29,
+        "equipe": "ECHIRE ST GELAIS AS 3",
+        "pts": 30,
         "joues": 16
     },
     {
@@ -33,25 +33,25 @@
         "pos": 6,
         "equipe": "NIORT PEXINOISE US",
         "pts": 22,
-        "joues": 17
+        "joues": 18
     },
     {
         "pos": 7,
+        "equipe": "GATI FOOT 3",
+        "pts": 22,
+        "joues": 17
+    },
+    {
+        "pos": 8,
         "equipe": "CHAMPDENIERS PAMPLIE",
         "pts": 20,
         "joues": 15
     },
     {
-        "pos": 8,
+        "pos": 9,
         "equipe": "PAYS MAIXENTAIS US 2",
         "pts": 20,
         "joues": 17
-    },
-    {
-        "pos": 9,
-        "equipe": "GATI FOOT 3",
-        "pts": 19,
-        "joues": 16
     },
     {
         "pos": 10,
@@ -69,6 +69,6 @@
         "pos": 12,
         "equipe": "PARTHENAY PORTUGAIS",
         "pts": 1,
-        "joues": 16
+        "joues": 17
     }
 ]
