@@ -25,33 +25,33 @@
     },
     {
         "pos": 5,
-        "equipe": "ROCHEFORT FC 2",
-        "pts": 25,
-        "joues": 18
-    },
-    {
-        "pos": 6,
         "equipe": "GRANDE CHAMPAGNE JS",
         "pts": 24,
         "joues": 18
     },
     {
-        "pos": 7,
+        "pos": 6,
         "equipe": "PAYS MELLOIS AS",
         "pts": 23,
         "joues": 17
     },
     {
-        "pos": 8,
+        "pos": 7,
         "equipe": "CHATEAU LARCHER ES",
         "pts": 23,
-        "joues": 17
+        "joues": 16
     },
     {
-        "pos": 9,
+        "pos": 8,
         "equipe": "ST YRIEIX 16 AS",
         "pts": 22,
         "joues": 18
+    },
+    {
+        "pos": 9,
+        "equipe": "ROCHEFORT FC 2",
+        "pts": 22,
+        "joues": 17
     },
     {
         "pos": 10,
