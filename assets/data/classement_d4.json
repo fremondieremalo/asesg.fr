@@ -27,7 +27,7 @@
         "pos": 5,
         "equipe": "BUSLAURS THIREUIL 2",
         "pts": 30,
-        "joues": 15
+        "joues": 16
     },
     {
         "pos": 6,
@@ -37,21 +37,21 @@
     },
     {
         "pos": 7,
+        "equipe": "PAYS NÃO-CRÃCHOIS FC 3",
+        "pts": 23,
+        "joues": 15
+    },
+    {
+        "pos": 8,
         "equipe": "ECHIRE ST GELAIS AS 4",
         "pts": 21,
         "joues": 16
     },
     {
-        "pos": 8,
+        "pos": 9,
         "equipe": "AIFFRES FORS PRAHECQ 3",
         "pts": 20,
         "joues": 16
-    },
-    {
-        "pos": 9,
-        "equipe": "PAYS NÃO-CRÃCHOIS FC 3",
-        "pts": 20,
-        "joues": 14
     },
     {
         "pos": 10,
