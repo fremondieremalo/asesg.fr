@@ -1,14 +1,14 @@
 [
     {
         "pos": 1,
-        "equipe": "AVENIR 79 FC 3",
-        "pts": 37,
-        "joues": 17
+        "equipe": "NIORT SOUCHEEN SA",
+        "pts": 38,
+        "joues": 18
     },
     {
         "pos": 2,
-        "equipe": "NIORT SOUCHEEN SA",
-        "pts": 35,
+        "equipe": "AVENIR 79 FC 3",
+        "pts": 37,
         "joues": 17
     },
     {
@@ -63,12 +63,12 @@
         "pos": 11,
         "equipe": "PAYS MAIXENTAIS US 3",
         "pts": 9,
-        "joues": 17
+        "joues": 18
     },
     {
         "pos": 12,
         "equipe": "SUD GATINE FC 3",
         "pts": -1,
-        "joues": 15
+        "joues": 16
     }
 ]

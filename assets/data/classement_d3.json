@@ -2,8 +2,8 @@
     {
         "pos": 1,
         "equipe": "VASLEENNE US",
-        "pts": 43,
-        "joues": 15
+        "pts": 46,
+        "joues": 16
     },
     {
         "pos": 2,
@@ -25,27 +25,27 @@
     },
     {
         "pos": 5,
+        "equipe": "GATI FOOT 3",
+        "pts": 25,
+        "joues": 18
+    },
+    {
+        "pos": 6,
         "equipe": "SUD GATINE FC 2",
         "pts": 23,
         "joues": 15
     },
     {
-        "pos": 6,
+        "pos": 7,
         "equipe": "PAYS MAIXENTAIS US 2",
         "pts": 23,
         "joues": 18
     },
     {
-        "pos": 7,
+        "pos": 8,
         "equipe": "NIORT PEXINOISE US",
         "pts": 22,
         "joues": 18
-    },
-    {
-        "pos": 8,
-        "equipe": "GATI FOOT 3",
-        "pts": 22,
-        "joues": 17
     },
     {
         "pos": 9,
@@ -63,12 +63,12 @@
         "pos": 11,
         "equipe": "CHAURAY FC 4",
         "pts": 19,
-        "joues": 17
+        "joues": 18
     },
     {
         "pos": 12,
         "equipe": "PARTHENAY PORTUGAIS",
         "pts": 1,
-        "joues": 17
+        "joues": 18
     }
 ]
