@@ -2,25 +2,25 @@
     {
         "pos": 1,
         "equipe": "ECHIRE ST GELAIS AS",
-        "pts": 42,
-        "joues": 18
+        "pts": 45,
+        "joues": 19
     },
     {
         "pos": 2,
         "equipe": "COGNAC FOOTBALL UA",
         "pts": 42,
-        "joues": 18
+        "joues": 19
     },
     {
         "pos": 3,
-        "equipe": "ST PALAIS SPORT FOOT",
-        "pts": 31,
-        "joues": 18
+        "equipe": "ROYAN VAUX AFC",
+        "pts": 32,
+        "joues": 19
     },
     {
         "pos": 4,
-        "equipe": "ROYAN VAUX AFC",
-        "pts": 29,
+        "equipe": "ST PALAIS SPORT FOOT",
+        "pts": 31,
         "joues": 18
     },
     {
@@ -57,7 +57,7 @@
         "pos": 10,
         "equipe": "USSON POITOU ISLE J.",
         "pts": 20,
-        "joues": 17
+        "joues": 18
     },
     {
         "pos": 11,

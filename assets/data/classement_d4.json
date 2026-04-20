@@ -1,63 +1,63 @@
 [
     {
         "pos": 1,
+        "equipe": "AVENIR 79 FC 3",
+        "pts": 40,
+        "joues": 18
+    },
+    {
+        "pos": 2,
         "equipe": "NIORT SOUCHEEN SA",
         "pts": 38,
         "joues": 18
     },
     {
-        "pos": 2,
-        "equipe": "AVENIR 79 FC 3",
-        "pts": 37,
-        "joues": 17
-    },
-    {
         "pos": 3,
         "equipe": "NIORT ST FLORENT UA 3",
-        "pts": 33,
-        "joues": 17
+        "pts": 34,
+        "joues": 18
     },
     {
         "pos": 4,
         "equipe": "STE OUENNE AS",
-        "pts": 31,
-        "joues": 17
+        "pts": 32,
+        "joues": 18
     },
     {
         "pos": 5,
-        "equipe": "BUSLAURS THIREUIL 2",
+        "equipe": "FC AUTIZE 3",
         "pts": 30,
         "joues": 16
     },
     {
         "pos": 6,
-        "equipe": "FC AUTIZE 3",
-        "pts": 27,
-        "joues": 15
+        "equipe": "BUSLAURS THIREUIL 2",
+        "pts": 30,
+        "joues": 17
     },
     {
         "pos": 7,
-        "equipe": "PAYS NÃO-CRÃCHOIS FC 3",
-        "pts": 23,
-        "joues": 15
+        "equipe": "ECHIRE ST GELAIS AS 4",
+        "pts": 24,
+        "joues": 17
     },
     {
         "pos": 8,
-        "equipe": "ECHIRE ST GELAIS AS 4",
-        "pts": 21,
+        "equipe": "PAYS NÃO-CRÃCHOIS FC 3",
+        "pts": 24,
         "joues": 16
     },
     {
         "pos": 9,
         "equipe": "AIFFRES FORS PRAHECQ 3",
-        "pts": 20,
-        "joues": 16
+        "pts": 21,
+        "joues": 17
     },
     {
         "pos": 10,
         "equipe": "BESSINES ASPTT 2",
         "pts": 11,
-        "joues": 17
+        "joues": 18
     },
     {
         "pos": 11,
@@ -69,6 +69,6 @@
         "pos": 12,
         "equipe": "SUD GATINE FC 3",
         "pts": -1,
-        "joues": 16
+        "joues": 17
     }
 ]
