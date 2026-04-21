@@ -25,20 +25,20 @@
     },
     {
         "pos": 5,
+        "equipe": "ROCHEFORT FC 2",
+        "pts": 28,
+        "joues": 19
+    },
+    {
+        "pos": 6,
         "equipe": "PAYS MELLOIS AS",
         "pts": 26,
         "joues": 18
     },
     {
-        "pos": 6,
+        "pos": 7,
         "equipe": "CHATEAU LARCHER ES",
         "pts": 26,
-        "joues": 17
-    },
-    {
-        "pos": 7,
-        "equipe": "ROCHEFORT FC 2",
-        "pts": 25,
         "joues": 18
     },
     {
