@@ -3,72 +3,72 @@
         "pos": 1,
         "equipe": "UNION SUD DEUX SEVRE",
         "pts": 44,
-        "joues": 16
+        "joues": 17
     },
     {
         "pos": 2,
         "equipe": "AVENIR 79 FC 2",
-        "pts": 33,
-        "joues": 17
+        "pts": 36,
+        "joues": 18
     },
     {
         "pos": 3,
-        "equipe": "BESSINES ASPTT",
-        "pts": 32,
-        "joues": 19
+        "equipe": "BOUTONNAIS FC",
+        "pts": 34,
+        "joues": 18
     },
     {
         "pos": 4,
-        "equipe": "BOUTONNAIS FC",
-        "pts": 31,
-        "joues": 17
+        "equipe": "BESSINES ASPTT",
+        "pts": 32,
+        "joues": 20
     },
     {
         "pos": 5,
         "equipe": "VENISE VERTE FC",
-        "pts": 28,
-        "joues": 17
+        "pts": 31,
+        "joues": 18
     },
     {
         "pos": 6,
         "equipe": "CHAURAY FC 3",
         "pts": 24,
-        "joues": 17
+        "joues": 18
     },
     {
         "pos": 7,
-        "equipe": "ECHIRE ST GELAIS AS 2",
-        "pts": 21,
+        "equipe": "AIFFRES FORS PRAHECQ",
+        "pts": 22,
         "joues": 18
     },
     {
         "pos": 8,
-        "equipe": "AIFFRES FORS PRAHECQ",
-        "pts": 19,
-        "joues": 17
+        "equipe": "ECHIRE ST GELAIS AS 2",
+        "pts": 21,
+        "joues": 19
     },
     {
         "pos": 9,
-        "equipe": "BRULAIN ES",
-        "pts": 17,
-        "joues": 18
+        "equipe": "BEAUVOIR S/NIORT CS",
+        "pts": 19,
+        "joues": 19
     },
     {
         "pos": 10,
-        "equipe": "BEAUVOIR S/NIORT CS",
-        "pts": 16,
-        "joues": 18
+        "equipe": "BRULAIN ES",
+        "pts": 17,
+        "joues": 19
     },
     {
         "pos": 11,
-        "equipe": "FC AUTIZE 2",
-        "pts": 14,
-        "joues": 16
+        "equipe": "LE TALLUD EVEIL 2",
+        "pts": 16,
+        "joues": 17
     },
     {
         "pos": 12,
-        "equipe": "LE TALLUD EVEIL 2",
-        "pts": 13,
-        "joues": 16
+        "equipe": "FC AUTIZE 2",
+        "pts": 14,
+        "joues": 17
     }
 ]
