@@ -3,7 +3,7 @@
         "pos": 1,
         "equipe": "UNION SUD DEUX SEVRE",
         "pts": 47,
-        "joues": 18
+        "joues": 19
     },
     {
         "pos": 2,
@@ -39,7 +39,7 @@
         "pos": 7,
         "equipe": "CHAURAY FC 3",
         "pts": 24,
-        "joues": 18
+        "joues": 19
     },
     {
         "pos": 8,
@@ -49,26 +49,26 @@
     },
     {
         "pos": 9,
+        "equipe": "FC AUTIZE 2",
+        "pts": 20,
+        "joues": 19
+    },
+    {
+        "pos": 10,
+        "equipe": "LE TALLUD EVEIL 2",
+        "pts": 19,
+        "joues": 19
+    },
+    {
+        "pos": 11,
         "equipe": "BEAUVOIR S/NIORT CS",
         "pts": 19,
         "joues": 19
     },
     {
-        "pos": 10,
-        "equipe": "FC AUTIZE 2",
-        "pts": 17,
-        "joues": 18
-    },
-    {
-        "pos": 11,
+        "pos": 12,
         "equipe": "BRULAIN ES",
         "pts": 17,
         "joues": 19
-    },
-    {
-        "pos": 12,
-        "equipe": "LE TALLUD EVEIL 2",
-        "pts": 16,
-        "joues": 18
     }
 ]

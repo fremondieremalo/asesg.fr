@@ -1,15 +1,15 @@
 [
     {
         "pos": 1,
-        "equipe": "NIORT SOUCHEEN SA",
-        "pts": 44,
+        "equipe": "AVENIR 79 FC 3",
+        "pts": 46,
         "joues": 20
     },
     {
         "pos": 2,
-        "equipe": "AVENIR 79 FC 3",
-        "pts": 43,
-        "joues": 19
+        "equipe": "NIORT SOUCHEEN SA",
+        "pts": 44,
+        "joues": 20
     },
     {
         "pos": 3,
@@ -26,8 +26,8 @@
     {
         "pos": 5,
         "equipe": "STE OUENNE AS",
-        "pts": 32,
-        "joues": 19
+        "pts": 33,
+        "joues": 20
     },
     {
         "pos": 6,
@@ -45,13 +45,13 @@
         "pos": 8,
         "equipe": "PAYS NÃO-CRÃCHOIS FC 3",
         "pts": 27,
-        "joues": 18
+        "joues": 19
     },
     {
         "pos": 9,
         "equipe": "AIFFRES FORS PRAHECQ 3",
-        "pts": 24,
-        "joues": 19
+        "pts": 25,
+        "joues": 20
     },
     {
         "pos": 10,
