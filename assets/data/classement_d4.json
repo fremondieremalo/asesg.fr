@@ -15,37 +15,37 @@
         "pos": 3,
         "equipe": "NIORT ST FLORENT UA 3",
         "pts": 37,
-        "joues": 19
+        "joues": 20
     },
     {
         "pos": 4,
         "equipe": "FC AUTIZE 3",
         "pts": 36,
-        "joues": 19
+        "joues": 20
     },
     {
         "pos": 5,
-        "equipe": "STE OUENNE AS",
+        "equipe": "BUSLAURS THIREUIL 2",
         "pts": 33,
         "joues": 20
     },
     {
         "pos": 6,
-        "equipe": "BUSLAURS THIREUIL 2",
-        "pts": 30,
-        "joues": 19
+        "equipe": "STE OUENNE AS",
+        "pts": 33,
+        "joues": 20
     },
     {
         "pos": 7,
         "equipe": "ECHIRE ST GELAIS AS 4",
-        "pts": 27,
-        "joues": 19
+        "pts": 30,
+        "joues": 20
     },
     {
         "pos": 8,
         "equipe": "PAYS NÃO-CRÃCHOIS FC 3",
-        "pts": 27,
-        "joues": 19
+        "pts": 30,
+        "joues": 20
     },
     {
         "pos": 9,
@@ -68,7 +68,7 @@
     {
         "pos": 12,
         "equipe": "SUD GATINE FC 3",
-        "pts": -1,
-        "joues": 19
+        "pts": -2,
+        "joues": 20
     }
 ]
