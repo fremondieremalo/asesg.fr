@@ -2,8 +2,8 @@
     {
         "pos": 1,
         "equipe": "UNION SUD DEUX SEVRE",
-        "pts": 47,
-        "joues": 19
+        "pts": 50,
+        "joues": 20
     },
     {
         "pos": 2,
@@ -49,26 +49,26 @@
     },
     {
         "pos": 9,
+        "equipe": "FC AUTIZE 2",
+        "pts": 23,
+        "joues": 20
+    },
+    {
+        "pos": 10,
         "equipe": "LE TALLUD EVEIL 2",
         "pts": 20,
         "joues": 20
     },
     {
-        "pos": 10,
-        "equipe": "FC AUTIZE 2",
-        "pts": 20,
-        "joues": 19
-    },
-    {
         "pos": 11,
         "equipe": "BEAUVOIR S/NIORT CS",
         "pts": 19,
-        "joues": 19
+        "joues": 20
     },
     {
         "pos": 12,
         "equipe": "BRULAIN ES",
         "pts": 17,
-        "joues": 19
+        "joues": 20
     }
 ]
