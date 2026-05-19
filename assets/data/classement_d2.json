@@ -31,33 +31,33 @@
     },
     {
         "pos": 6,
-        "equipe": "CHAURAY FC 3",
-        "pts": 27,
-        "joues": 21
-    },
-    {
-        "pos": 7,
         "equipe": "AIFFRES FORS PRAHECQ",
         "pts": 26,
         "joues": 21
     },
     {
-        "pos": 8,
+        "pos": 7,
         "equipe": "FC AUTIZE 2",
         "pts": 26,
         "joues": 21
     },
     {
-        "pos": 9,
+        "pos": 8,
         "equipe": "ECHIRE ST GELAIS AS 2",
         "pts": 25,
         "joues": 21
     },
     {
+        "pos": 9,
+        "equipe": "CHAURAY FC 3",
+        "pts": 24,
+        "joues": 20
+    },
+    {
         "pos": 10,
         "equipe": "LE TALLUD EVEIL 2",
         "pts": 20,
-        "joues": 21
+        "joues": 20
     },
     {
         "pos": 11,
